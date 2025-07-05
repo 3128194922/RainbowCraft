@@ -1,0 +1,7 @@
+
+["Shockwave Settings"]
+	#Modfies the range of shockwave that is occurred from monstrosteve's melee attacks.
+	meleeAttackShockwaveRange = 5.0
+	#Modfies the range of shockwave that is occurred from monstrosteve's smash attacks.
+	smashAttackShockwaveRange = 10.0
+

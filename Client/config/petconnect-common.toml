@@ -1,0 +1,10 @@
+
+#配置文件
+[petconnect]
+	#限制宠物数量，默认为10
+	#Range: > 0
+	limit_pets_number = 10
+	#连接距离，默认为10
+	#Range: 0.0 ~ 1.7976931348623157E308
+	connect_distance = 10.0
+

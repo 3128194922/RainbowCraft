@@ -1,0 +1,252 @@
+
+["被遗忘物品 配置"]
+	#在创造模式下显示符文的输出物品提示
+	showRecipeOutputCreative = true
+	#使用白名单模式来限制配方材料，如果启用会直接忽略黑名单
+	useWhitelist = false
+	#允许在配方中使用非原版物品
+	useNonVanillaItems = false
+	#合成符文配方物品黑名单
+	bannedItems = ["minecraft:air", "minecraft:barrier", "minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:structure_block", "minecraft:structure_void", "minecraft:debug_stick", "minecraft:farmland", "minecraft:grass_path", "minecraft:suspicious_sand", "minecraft:budding_amethyst", "minecraft:bedrock", "minecraft:end_portal_frame", "minecraft:end_portal", "minecraft:nether_portal", "minecraft:end_gateway", "minecraft:light", "minecraft:jigsaw", "minecraft:spawner", "minecraft:knowledge_book", "minecraft:bundle", "minecraft:suspicious_stew", "minecraft:dragon_egg", "minecraft:infested_stone", "minecraft:infested_cobblestone", "minecraft:infested_stone_bricks", "minecraft:infested_mossy_stone_bricks", "minecraft:infested_cracked_stone_bricks", "minecraft:infested_chiseled_stone_bricks", "minecraft:reinforced_deepslate", "minecraft:petrified_oak_slab", "minecraft:monster_egg", "minecraft:written_book", "minecraft:filled_map", "minecraft:player_head", "minecraft:bee_nest", "minecraft:piglin_head", "minecraft:ender_dragon_spawn_egg", "minecraft:wither_spawn_egg", "minecraft:allay_spawn_egg", "minecraft:armadillo_spawn_egg", "minecraft:axolotl_spawn_egg", "minecraft:bat_spawn_egg", "minecraft:bee_spawn_egg", "minecraft:blaze_spawn_egg", "minecraft:bogged_spawn_egg", "minecraft:breeze_spawn_egg", "minecraft:camel_spawn_egg", "minecraft:cat_spawn_egg", "minecraft:cave_spider_spawn_egg", "minecraft:chicken_spawn_egg", "minecraft:cod_spawn_egg", "minecraft:cow_spawn_egg", "minecraft:creeper_spawn_egg", "minecraft:dolphin_spawn_egg", "minecraft:donkey_spawn_egg", "minecraft:drowned_spawn_egg", "minecraft:elder_guardian_spawn_egg", "minecraft:ender_dragon_spawn_egg", "minecraft:enderman_spawn_egg", "minecraft:endermite_spawn_egg", "minecraft:evoker_spawn_egg", "minecraft:fox_spawn_egg", "minecraft:frog_spawn_egg", "minecraft:ghast_spawn_egg", "minecraft:glow_squid_spawn_egg", "minecraft:goat_spawn_egg", "minecraft:guardian_spawn_egg", "minecraft:hoglin_spawn_egg", "minecraft:horse_spawn_egg", "minecraft:husk_spawn_egg", "minecraft:iron_golem_spawn_egg", "minecraft:llama_spawn_egg", "minecraft:magma_cube_spawn_egg", "minecraft:mooshroom_spawn_egg", "minecraft:mule_spawn_egg", "minecraft:ocelot_spawn_egg", "minecraft:panda_spawn_egg", "minecraft:parrot_spawn_egg", "minecraft:phantom_spawn_egg", "minecraft:pig_spawn_egg", "minecraft:piglin_spawn_egg", "minecraft:piglin_brute_spawn_egg", "minecraft:pillager_spawn_egg", "minecraft:polar_bear_spawn_egg", "minecraft:pufferfish_spawn_egg", "minecraft:rabbit_spawn_egg", "minecraft:ravager_spawn_egg", "minecraft:salmon_spawn_egg", "minecraft:sheep_spawn_egg", "minecraft:shulker_spawn_egg", "minecraft:silverfish_spawn_egg", "minecraft:skeleton_spawn_egg", "minecraft:skeleton_horse_spawn_egg", "minecraft:slime_spawn_egg", "minecraft:snow_golem_spawn_egg", "minecraft:sniffer_spawn_egg", "minecraft:spider_spawn_egg", "minecraft:squid_spawn_egg", "minecraft:stray_spawn_egg", "minecraft:strider_spawn_egg", "minecraft:tadpole_spawn_egg", "minecraft:trader_llama_spawn_egg", "minecraft:tropical_fish_spawn_egg", "minecraft:turtle_spawn_egg", "minecraft:vex_spawn_egg", "minecraft:villager_spawn_egg", "minecraft:vindicator_spawn_egg", "minecraft:wandering_trader_spawn_egg", "minecraft:warden_spawn_egg", "minecraft:witch_spawn_egg", "minecraft:wither_spawn_egg", "minecraft:wither_skeleton_spawn_egg", "minecraft:wolf_spawn_egg", "minecraft:zoglin_spawn_egg", "minecraft:zombie_spawn_egg", "minecraft:zombie_horse_spawn_egg", "minecraft:zombie_villager_spawn_egg", "minecraft:zombified_piglin_spawn_egg"]
+	#合成符文配方物品白名单
+	whitelist = ["minecraft:stone", "minecraft:granite", "minecraft:diorite", "minecraft:andesite", "minecraft:deepslate", "minecraft:cobblestone", "minecraft:oak_log", "minecraft:spruce_log", "minecraft:birch_log", "minecraft:coal", "minecraft:iron_ingot", "minecraft:gold_ingot", "minecraft:diamond", "minecraft:emerald", "minecraft:lapis_lazuli", "minecraft:redstone", "minecraft:copper_ingot", "minecraft:amethyst_shard", "minecraft:wheat", "minecraft:carrot", "minecraft:potato", "minecraft:beetroot", "minecraft:sugar_cane", "minecraft:apple", "minecraft:sweet_berries", "minecraft:glow_berries", "minecraft:bone", "minecraft:spider_eye", "minecraft:gunpowder", "minecraft:string", "minecraft:rotten_flesh", "minecraft:ender_pearl", "minecraft:blaze_rod", "minecraft:netherrack", "minecraft:soul_sand", "minecraft:glowstone_dust", "minecraft:quartz", "minecraft:nether_wart", "minecraft:end_stone", "minecraft:chorus_fruit", "minecraft:shulker_shell", "minecraft:white_dye", "minecraft:black_dye", "minecraft:blue_dye", "minecraft:green_dye", "minecraft:enchanted_golden_apple", "minecraft:nether_star", "minecraft:heart_of_the_sea", "minecraft:totem_of_undying"]
+
+["自定义配方"]
+	#自定义配方列表
+	#格式: [["输出物品", "核心物品"]]
+	#示例: [["minecraft:nether_star", "minecraft:diamond"]]
+	#使用物品的注册名（例如：'minecraft:diamond' 而不是 'Diamond'）
+	recipes = []
+
+["傀儡套装配置"]
+	#启用套装效果
+	#true - 启用套装效果
+	#false - 禁用套装效果
+	enableSetBonus = true
+	#启用自动修复
+	#true - 启用自动修复
+	#false - 禁用自动修复
+	enableAutoRepair = true
+	#允许装备完全损坏
+	#true - 装备可以完全损坏
+	#false - 装备永远保留1点耐久
+	enableArmorBreak = false
+	#自动修复间隔（秒）
+	#设置每次自动修复的时间间隔
+	#Range: 1 ~ 60
+	autoRepairInterval = 3
+	#每次修复的耐久度
+	#设置每次自动修复恢复的耐久度数量
+	#Range: 1 ~ 100
+	autoRepairAmount = 1
+	#坚固效果等级（0 = 等级I，1 = 等级II，以此类推）
+	#设置套装效果中坚固效果的等级
+	#Range: 0 ~ 4
+	solidEffectLevel = 0
+	#排斥效果等级（0 = 等级I，1 = 等级II，以此类推）
+	#设置套装效果中排斥效果的等级
+	#Range: 0 ~ 4
+	repulsionEffectLevel = 0
+
+["连锁镐配置"]
+	#连锁镐一次能挖掘的最大方块数
+	#设置过大可能会影响性能
+	#Range: 1 ~ 100
+	maxVeinSize = 30
+
+["黑曜石收割者配置"]
+	#黑曜石收割者对黑曜石的速度倍率
+	#基于基础速度(8.0)进行倍率计算
+	#默认值11.25，相当于90的挖掘速度(8.0 * 11.25 = 90)
+	#Range: 1.0 ~ 20.0
+	obsidianMultiplier = 11.25
+
+["急速镐配置"]
+	#急速镐的速度倍率
+	#基于金镐的基础速度进行倍率计算
+	#1.0 = 原速度，1.5 = 提升50%，2.0 = 翻倍
+	#Range: 1.0 ~ 5.0
+	speedMultiplier = 1.5
+
+["赌博镐配置"]
+	#基础掉落物翻倍概率（不包含时运加成）
+	#范围: 0.0 (0%) 到 1.0 (100%)
+	#Range: 0.0 ~ 1.0
+	baseDuplicateChance = 0.3
+	#每级时运附魔增加的翻倍概率
+	#范围: 0.0 (0%) 到 0.5 (50%)
+	#Range: 0.0 ~ 0.5
+	fortuneBonus = 0.1
+
+["爆炸镐配置"]
+	#爆炸是否破坏方块
+	#true - 爆炸会破坏方块
+	#false - 爆炸不会破坏方块
+	destroysBlocks = false
+	#普通方块爆炸强度倍数（基于方块硬度）
+	#Range: 0.1 ~ 10.0
+	powerMultiplier = 3.5
+	#黑曜石专用爆炸强度
+	#Range: 1.0 ~ 100.0
+	obsidianPower = 50.0
+
+["末影护符"]
+	#末影护符的最大传送距离
+	#Range: 1 ~ 200
+	teleportDistance = 50
+	#末影护符的冷却时间（以游戏刻计算，20刻=1秒）
+	#Range: 0 ~ 1200
+	cooldownTicks = 40
+
+["冲击护符"]
+	#冲击护符的基础爆炸系数
+	#Range: 0.0 ~ 2.0
+	baseExplosionMultiplier = 0.25
+	#触发冲击护符效果所需的最小下落高度
+	#Range: 0.0 ~ 10.0
+	minFallDistance = 3.0
+	#装备缓冲靴时爆炸强度的减少系数（0.8 = 减少20%）
+	#Range: 0.0 ~ 1.0
+	cushionedBootsReduction = 0.8
+
+["狂风护符"]
+	#狂风护符的冲刺速度
+	#Range: 0.0 ~ 3.0
+	dashVelocity = 0.18
+	#狂风护符的冷却时间（以游戏刻计算，20刻=1秒）
+	#Range: 0 ~ 500
+	cooldownTicks = 40
+
+#结构战利品配置
+#配置格式：物品ID,掉落概率(百分比);多个物品用分号分隔
+["战利品设置"]
+	#沙漠神殿战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	desertPyramidLoot = "forsakenitems:crafting_rune,10"
+	#丛林神庙战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	jungleTempleLoot = "forsakenitems:crafting_rune,10"
+	#废弃矿井战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	abandonedMineshaftLoot = "forsakenitems:crafting_rune,10"
+	#要塞图书馆战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	strongholdLibraryLoot = "forsakenitems:crafting_rune,10"
+	#林地府邸战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	woodlandMansionLoot = "forsakenitems:crafting_rune,10"
+	#村庄教堂战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageTempleLoot = "forsakenitems:crafting_rune,10"
+	#沉船宝藏配置
+	#格式：物品ID,掉落概率(百分比)
+	shipwreckTreasureLoot = "forsakenitems:crafting_rune,10"
+	#掠夺者前哨站配置
+	#格式：物品ID,掉落概率(百分比)
+	pillagerOutpostLoot = "forsakenitems:crafting_rune,10"
+	#埋藏宝藏配置
+	#格式：物品ID,掉落概率(百分比)
+	buriedTreasureLoot = "forsakenitems:crafting_rune,10"
+	#大型水下废墟配置
+	#格式：物品ID,掉落概率(百分比)
+	underwaterRuinBigLoot = "forsakenitems:crafting_rune,10"
+	#小型水下废墟配置
+	#格式：物品ID,掉落概率(百分比)
+	underwaterRuinSmallLoot = "forsakenitems:crafting_rune,10"
+	#雪屋地下室配置
+	#格式：物品ID,掉落概率(百分比)
+	iglooChestLoot = "forsakenitems:crafting_rune,10"
+	#堡垒遗迹-宝藏室配置
+	#格式：物品ID,掉落概率(百分比)
+	bastionTreasureLoot = "forsakenitems:crafting_rune,10"
+	#堡垒遗迹-桥梁配置
+	#格式：物品ID,掉落概率(百分比)
+	bastionBridgeLoot = "forsakenitems:crafting_rune,10"
+	#堡垒遗迹-居住区配置
+	#格式：物品ID,掉落概率(百分比)
+	bastionHousingLoot = "forsakenitems:crafting_rune,10"
+	#堡垒遗迹-杂项配置
+	#格式：物品ID,掉落概率(百分比)
+	bastionOtherLoot = "forsakenitems:crafting_rune,10"
+	#废弃传送门配置
+	#格式：物品ID,掉落概率(百分比)
+	ruinedPortalLoot = "forsakenitems:crafting_rune,10"
+	#末地城战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	endCityLoot = "forsakenitems:crafting_rune,10"
+	#远古城市配置
+	#格式：物品ID,掉落概率(百分比)
+	ancientCityLoot = "forsakenitems:crafting_rune,10"
+	#小型地牢配置
+	#格式：物品ID,掉落概率(百分比)
+	simpleDungeonLoot = "forsakenitems:crafting_rune,10"
+	#要塞走廊配置
+	#格式：物品ID,掉落概率(百分比)
+	strongholdCorridorLoot = "forsakenitems:crafting_rune,10"
+	#恐龙化石配置
+	#格式：物品ID,掉落概率(百分比)
+	fossilDinosaurLoot = ""
+	#哺乳动物化石配置
+	#格式：物品ID,掉落概率(百分比)
+	fossilMammalLoot = ""
+	#沉船补给配置
+	#格式：物品ID,掉落概率(百分比)
+	shipwreckSupplyLoot = "forsakenitems:crafting_rune,10"
+	#林地制图室配置
+	#格式：物品ID,掉落概率(百分比)
+	woodlandCartographyLoot = "forsakenitems:crafting_rune,10"
+	#要塞十字厅配置
+	#格式：物品ID,掉落概率(百分比)
+	strongholdCrossingLoot = "forsakenitems:crafting_rune,10"
+	#沉船地图配置
+	#格式：物品ID,掉落概率(百分比)
+	shipwreckMapLoot = "forsakenitems:crafting_rune,10"
+	#盔甲匠战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageArmorerLoot = ""
+	#屠夫战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageButcherLoot = ""
+	#制图师战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageCartographerLoot = ""
+	#平原村庄房屋配置
+	#格式：物品ID,掉落概率(百分比)
+	villagePlainsHouseLoot = ""
+	#渔夫战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageFisherLoot = ""
+	#制箭师战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageFletcherLoot = ""
+	#制革厂战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageTanneryLoot = ""
+	#村庄图书馆配置
+	#格式：物品ID,掉落概率(百分比)
+	villageLibraryLoot = ""
+	#石匠战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageMasonLoot = ""
+	#牧羊人战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageShepherdLoot = ""
+	#工具匠战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageToolsmithLoot = ""
+	#武器匠战利品配置
+	#格式：物品ID,掉落概率(百分比)
+	villageWeaponsmithLoot = ""
+	#沙漠村庄房屋配置
+	#格式：物品ID,掉落概率(百分比)
+	villageDesertHouseLoot = ""
+	#雪原村庄房屋配置
+	#格式：物品ID,掉落概率(百分比)
+	villageSnowyHouseLoot = ""
+	#热带草原村庄房屋配置
+	#格式：物品ID,掉落概率(百分比)
+	villageSavannaHouseLoot = ""
+	#针叶林村庄房屋配置
+	#格式：物品ID,掉落概率(百分比)
+	villageTaigaHouseLoot = ""
+

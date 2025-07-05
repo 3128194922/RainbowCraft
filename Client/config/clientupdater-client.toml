@@ -1,0 +1,5 @@
+#同步服务器url
+server_address = "http://127.0.0.1:25564/"
+#最后更新时间(自动生成请勿更改)
+last_update_time = "0"
+

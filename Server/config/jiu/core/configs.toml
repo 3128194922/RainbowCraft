@@ -1,0 +1,49 @@
+
+[example]
+	#int type config,
+	#min and max can be any Integer number
+	#Range: > -2147483648
+	int_type = 998
+	#long type config,
+	#min and max can be any Long number
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	long_type = 998
+	#float type config,
+	#min and max can be any Float number
+	#Range: 1.4E-45 ~ 1.4E-45
+	float_type = 1.4E-45
+	#double type config,
+	#min and max can be any Double number
+	#Range: 4.9E-324 ~ 4.9E-324
+	double_type = 4.9E-324
+	#string type config,
+	#value can be any char.
+	string_type = "this is a string."
+	#boolean type config,
+	#value can be true or false
+	boolean_type = true
+	#this is enum type config,
+	#click button to change enum.
+	#Allowed Values: MASTER, MUSIC, RECORDS, WEATHER, BLOCKS, HOSTILE, NEUTRAL, PLAYERS, AMBIENT, VOICE, EXTRASOUNDS$MASTER, EXTRASOUNDS$INVENTORY, EXTRASOUNDS$ACTION, EXTRASOUNDS$CHAT, EXTRASOUNDS$CHAT_MENTION, EXTRASOUNDS$EFFECTS, EXTRASOUNDS$HOTBAR, EXTRASOUNDS$TYPING, EXTRASOUNDS$ITEM_DROP, EXTRASOUNDS$EMPTY_HOTBAR, EXTRASOUNDS$ENABLED_FOOTSTEP, EXTRASOUNDS$ENABLED_EFFECTS, EXTRASOUNDS$ENABLED_POOF
+	enum_type = "MASTER"
+
+	[example."sub types"]
+		#int type config,
+		#this is a Integer type config list.
+		int_types = [1, 2, 3, 4, 5]
+		#long type config,
+		#this is a Long type config list.
+		long_types = [1, 2, 3, 4, 5]
+		#float type config,
+		#this is a Float type config list.
+		float_types = [1.0, 2.0, 3.0, 4.0, 5.0]
+		#double type config,
+		#this is a Double type config list.
+		double_types = [1.0, 2.0, 3.0, 4.0, 5.0]
+		#string type config,
+		#this is a String type config list.
+		string_types = ["str1", "str2", "str3", "str4", "str5"]
+		#enum type config,
+		#this is a Enum type config list.
+		enum_types = ["MASTER", "MUSIC", "PLAYERS", "BLOCKS", "VOICE"]
+

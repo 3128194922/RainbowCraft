@@ -1,0 +1,19 @@
+
+[Attack]
+	isCancelAttack = true
+	attackEffect = "minecraft:weakness"
+	effectDuration = 20
+	effectAmplifier = 0
+	effectAmbient = false
+	effectVisible = true
+	effectShowIcon = true
+
+[Shot]
+	isCancelBowShot = true
+	shotEffect = "minecraft:weakness"
+	shotDuration = 20
+	shotAmplifier = 0
+	effectAmbient = false
+	effectVisible = true
+	effectShowIcon = true
+

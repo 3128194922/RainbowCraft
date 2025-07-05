@@ -1,0 +1,9 @@
+
+["Wishing Fountain Configs"]
+	#Transforms multi-block structure items. DEFAULT: minecraft:heart_of_the_sea
+	"trigger item" = "minecraft:heart_of_the_sea"
+
+["Buddelschiff Configs"]
+	#Maximum radius of buddelschiff search. DEFAULT: 10000
+	"searching radius" = 10000
+

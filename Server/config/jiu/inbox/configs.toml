@@ -1,0 +1,101 @@
+#inbox.config.save_to_root_directory.0
+#inbox.config.save_to_root_directory.1
+Save_To_Minecraft_Root_Directory = false
+#inbox.config.save_inbox_to_sql.0
+#inbox.config.save_inbox_to_sql.1
+Save_Inbox_To_SQL = false
+#inbox.config.custom_inbox_path.0
+#inbox.config.custom_inbox_path.1
+#inbox.config.custom_inbox_path.2
+#inbox.config.custom_inbox_path.3
+#inbox.config.custom_inbox_path.4
+inbox_path = ""
+
+[main]
+	#inbox.config.layout.vanilla_wrap.0
+	#inbox.config.layout.vanilla_wrap.1
+	Enable_Vanilla_Wrap_Text = true
+	#inbox.config.layout.button_dragging.0
+	Lock_Inbox_Button_Dragging = false
+	#inbox.config.enable_chat_btn.0
+	Enable_Chat_Button = false
+	#inbox.config.layout.email_list_width.0
+	#Range: > 0
+	Email_List_Width = 100
+
+	[main.position]
+
+		[main.position.inbox_buttons]
+			#inbox.config.layout.pos.inbox_btn.chat_btn.size.0
+			#Range: 0.15 ~ 10.0
+			chat_gui_button_size = 1.0
+			#inbox.config.layout.pos.inbox_btn.survival_btn.size.0
+			#Range: 0.15 ~ 10.0
+			survival_gui_button_size = 0.8
+			#inbox.config.layout.pos.inbox_btn.creative_btn.size.0
+			#Range: 0.15 ~ 10.0
+			creative_tab_button_size = 1.05
+
+			[main.position.inbox_buttons.chat_gui_button]
+				#Range: > -2147483648
+				X = 25
+				#Range: > -2147483648
+				Y = 5
+
+			[main.position.inbox_buttons.survival_gui_button]
+				#Range: > -2147483648
+				X = 76
+				#Range: > -2147483648
+				Y = 49
+
+			[main.position.inbox_buttons.creative_tab_button]
+				#Range: > -2147483648
+				X = 170
+				#Range: > -2147483648
+				Y = 165
+
+	[main.prompt]
+		#Range: > 0
+		Day = 0
+		#Range: > 0
+		Hour = 0
+		#Range: > 0
+		Minute = 0
+		#Range: > 0
+		Second = 25
+		#Range: > 0
+		Tick = 0
+		#inbox.config.send.cooling.millis
+		#Range: > 0
+		Millis = 0
+
+[send]
+	#inbox.config.send.blacklist.0
+	#inbox.config.send.blacklist.1
+	Enable_Send_BlackList = false
+	#inbox.config.send.whitelist.0
+	#inbox.config.send.whitelist.1
+	Enable_Send_WhiteList = false
+	#inbox.config.send.send_to_self.0
+	Enable_Send_To_Self = false
+	#inbox.config.send.cooling.0
+	Enable_Send_Cooling = true
+	#send history max count
+	#Range: > 0
+	Send_History_Max_Count = 5
+
+	[send.cooling]
+		#Range: > 0
+		Day = 0
+		#Range: > 0
+		Hour = 0
+		#Range: > 0
+		Minute = 0
+		#Range: > 0
+		Second = 5
+		#Range: > 0
+		Tick = 0
+		#inbox.config.send.cooling.millis
+		#Range: > 0
+		Millis = 0
+

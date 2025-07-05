@@ -1,0 +1,7 @@
+
+[Worldgen]
+	#Whether to Generate Stone and Deepslate Speleothems in the Overworld
+	generateOverworldSpeleothems = true
+	#Whether to Generate Speleothems in the Nether
+	generateNetherSpeleothems = true
+

@@ -1,0 +1,48 @@
+
+[flintlock]
+	#Damage X Bullet Speed
+	"Flintlock Bullet Damage 1" = 5.8
+	#Damage X Bullet Speed
+	"Flintlock Bullet Damage 2" = 5.0
+	#Increses Damage, Damage X Bullet Speed
+	"Flintlock Bullet Speed" = 3.5
+	"Flintlock Bullet Inaccuracy" = 1.0
+
+[blunderbuss]
+	#Damage X Bullet Speed
+	"Blunderbuss Bullet Damage" = 1.5
+	"Blunderbuss Pellet Amount" = 10.0
+	#Increses Damage, Damage X Bullet Speed
+	"Blunderbuss Bullet Speed" = 3.0
+	"Blunderbuss Bullet Inaccuracy" = 20.0
+
+[musket]
+	#Damage X Bullet Speed
+	"Musket Bullet Damage" = 2.6
+	#Increses Damage, Damage X Bullet Speed
+	"Musket Bullet Speed" = 8.0
+	"Musket Bullet Inaccuracy" = 1.5
+
+[dubble_barrel_shotgun]
+	#Doot Doot
+	DOOM = false
+	#Damage X Bullet Speed
+	"Boomstick Bullet Damage" = 0.7
+	"Boomstick Pellet Amount" = 8.0
+	#Increses Damage, Damage X Bullet Speed
+	"Boomstick Bullet Speed" = 8.0
+	"Boomstick Bullet Inaccuracy" = 15.0
+
+[lever_action_rifle]
+	#Damage X Bullet Speed
+	"Lever Action Rifle Bullet Damage" = 1.2
+	#Increses Damage, Damage X Bullet Speed
+	"Lever Action Rifle Bullet Speed" = 15.0
+	"Lever Action Rifle Bullet Inaccuracy" = 1.0
+
+[elephant_rifle]
+	#Damage X Bullet Speed
+	"Elephant Rifle Bullet Damage" = 2.2
+	"Elephant Rifle Bullet Speed" = 18.0
+	"Elephant Rifle Bullet Inaccuracy" = 4.0
+

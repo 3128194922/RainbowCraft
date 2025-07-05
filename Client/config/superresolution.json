@@ -1,0 +1,18 @@
+{
+  "special": {
+    "fsr1": {
+      "fp16": true
+    },
+    "fsr2": {},
+    "nis": {},
+    "sgsr": {
+      "variant": "CS_2"
+    }
+  },
+  "enableUpscale": false,
+  "upscaleRatio": 2.1354,
+  "upscaleAlgo": "none",
+  "sharpness": 0.2477,
+  "captureMode": "a",
+  "debugDumpShader": false
+}

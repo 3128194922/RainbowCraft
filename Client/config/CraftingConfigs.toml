@@ -1,0 +1,32 @@
+
+["workbench guns"]
+	#Disable/Enable
+	"Flintlock Crafting" = true
+	#Disable/Enable
+	"Blunderbuss Crafting" = true
+	#Disable/Enable
+	"Musket Crafting" = true
+	#Disable/Enable
+	"Repeater Crafting" = true
+	#Disable/Enable
+	"Elephant Rifle" = true
+
+["workbench throwables"]
+	#Disable/Enable
+	"Standard Bomb Crafting" = true
+	#Disable/Enable
+	"Stun Bomb Crafting" = true
+	#Disable/Enable
+	"Molotov Crafting" = true
+	#Disable/Enable
+	"Throwing Knife Crafting" = true
+	#Disable/Enable
+	"Smoke Bomb Crafting" = true
+	#Disable/Enable
+	"Amethyst Bomb Crafting" = true
+
+[repairs]
+	#Disable/Enable ability to repair guns
+	"Gun Repairing" = true
+	"Gun Durability Loss" = true
+

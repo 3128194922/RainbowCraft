@@ -1,0 +1,393 @@
+{
+  "content": {
+    "broken_heart": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:broken_heart",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "magic_mirror": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:magic_mirror",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "wormhole_mirror": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:wormhole_mirror",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "ender_dragon_scale": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:ender_dragon_scale",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "balloon": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:balloon",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "obsidian_skull": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:obsidian_skull",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "sunglasses": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:sunglasses",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "apple": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:apple",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "vitamins": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:vitamins",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "ring_overclocking": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:ring_overclocking",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "shulker_heart": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:shulker_heart",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "ring_free_action": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:ring_free_action",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "bezoar": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:bezoar",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "broken_black_dragon_scale": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:broken_black_dragon_scale",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "mixed_dragon_scale": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:mixed_dragon_scale",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "lucky_horseshoe": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:lucky_horseshoe",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "ankh_charm": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:ankh_charm",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "horseshoe_balloon": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:horseshoe_balloon",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "cross_necklace": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:cross_necklace",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "phylactery_charm": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:phylactery_charm",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "amulet_sin_empty": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:amulet_sin_empty",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "resplendent_token": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:resplendent_token",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "disintegration_tablet": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:disintegration_tablet",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "curious_ring": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:curious_ring",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "curious_amulet": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:curious_amulet",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "curious_crown": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:curious_crown",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "curious_knuckles": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:curious_knuckles",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "auto_torch": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:auto_torch",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "bottled_cloud": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:bottled_cloud",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "endless_pearl": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:endless_pearl",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "vampiric_glove": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:vampiric_glove",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "gauntlets_dexterity": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:gauntlets_dexterity",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "cobalt_shield": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:cobalt_shield",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "luck_coin": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:luck_coin",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "minds_eye": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:minds_eye",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "dragon_breath": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:dragon_breath",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "ice_shard": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:ice_shard",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "tha_spider": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:tha_spider",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "creepo": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:creepo",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "tha_wizard": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:tha_wizard",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "book_o_enchanting": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:book_o_enchanting",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "warm_void": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:warm_void",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "golden_melon": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:golden_melon",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "fire_m mind": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:fire_mind",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "drop_spindle": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:drop_spindle",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "dark_egg": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:dark_egg",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "mossy_ring": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:mossy_ring",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "mad_aura": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:mad_aura",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "turtle_shell": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:turtle_shell",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "dark_dagger": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:dark_dagger",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "ember": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:ember",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "wither_nail": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:wither_nail",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "serpent_tooth": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:serpent_tooth",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "cat_burger": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "catburger:cat_burger",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "blaze_heart": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "bountifulbaubles:blaze_heart",
+      "amount": { "min": 1, "max": 1 },
+      "unitWorth": 10000
+    },
+    "all_rew_decree": {
+      "rarity": "COMMON"
+    },
+    "all_rew_prismarine_crystals": null
+  }
+}

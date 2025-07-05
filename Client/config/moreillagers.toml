@@ -1,0 +1,19 @@
+
+["[Raid Config]"]
+	#how_many_fire_mage_each_wave
+	"{1, 1, 1, 1, 1, 1, 1, 1}" = true
+	#how_many_snow_mage_each_wave
+	"{2, 2, 2, 1, 3, 3, 2, 4}" = true
+	#how_many_end_illager_each_wave
+	"{3, 1, 2, 2, 2, 3, 2, 4}" = true
+	#how_many_sprinkologer_each_wave
+	"{0, 0, 0, 0, 0, 1, 1, 1}" = true
+
+["[Patrol Config]"]
+	#do_pillager_banner
+	"Do Illagers Have Ominous Banners When Spawn In Patrols" = true
+
+["[Nightmare Config]"]
+	#If You Wont Care About Your world you can enable this!
+	"Illagers Will Haunt You Down If You Enable this!" = false
+

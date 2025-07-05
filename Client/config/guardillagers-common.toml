@@ -1,0 +1,17 @@
+
+["Spawning Settings"]
+	#Whether or not Guard Illagers should spawn in Woodland Mansions.
+	#This does NOT apply to mansions that have already been generated.
+	#Default: true
+	"Guards in Mansions" = true
+	#Whether or not Guard Illagers should spawn in Pillager Outposts and Pillager patrols.
+	#Default: true
+	"Guards in Outposts and Patrols" = true
+
+["Raid Settings"]
+	#How many Guard Illagers in each raid wave.
+	#Requires game restart.
+	#Must contain no more and no less than 8 integers.
+	#Default: 0, 1, 2, 2, 3, 2, 3, 4
+	"Guard Illager Raidcount" = [0, 1, 2, 2, 3, 2, 3, 4]
+

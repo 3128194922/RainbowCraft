@@ -1,0 +1,9 @@
+
+[anvil]
+	#Cost to apply a Dragonforged Codex to an item already at Max +1 (e.g. Quark Limit Breaker -> +2)
+	#Range: 1 ~ 1000
+	equipment_limit_decimator_cost = 50
+	#XP cost for powering up a Draconic Codex with an enchantment from an Ancient Tome
+	#Range: 1 ~ 1000
+	dragonforged_book_application_cost = 30
+

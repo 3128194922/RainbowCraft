@@ -1,0 +1,34 @@
+
+[Cerberus]
+	#The enchantment makes your attack to creatures heal your pets, but the pets should be close to you
+	#Here are the expanded coordinates data of the judgment, centered on your location
+	#Range: 1.0 ~ 1.7976931348623157E308
+	playerAroundX = 10.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	playerAroundY = 10.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	playerAroundZ = 10.0
+	#
+	#
+	#If player's current health is less than 'maxHealth * playerHealthPercentage', players will not take damage for their pets
+	#Range: 0.0 ~ 1.0
+	playerHealthPercentage = 0.3
+	#
+	#
+	#Enchantment's properties
+	isTradeable = true
+	isCurse = false
+	isTreasure = false
+	canBeFoundInLoot = true
+	#Allowed value: COMMON, UNCOMMON, RARE, VERY_RARE
+	rarity = "UNCOMMON"
+	isAllowedOnBooks = true
+	#
+	#
+	#Your attack to creatures will heal your pets based on the damage amounts.
+	#But if you turn this off, the damage amounts won't be average according to the pets number, but all amounts persent on each heal.
+	isAverageHealAmounts = true
+	#Here are the types of damage source that the player will not take instead for the pets.
+	#Allowed values: inFire, lightningBolt, onFire, lava, hotFloor, inWall, cramming, drown, starve, cactus, fall, flyIntoWall, outOfWorld, generic, magic, wither, anvil, fallingBlock, dragonBreath, dryout, sweetBerryBush
+	invalidDamageSourceTypes = ["onFire", "drown", "fall", "outOfWorld", "cactus", "lava"]
+

@@ -1,0 +1,5485 @@
+{
+	"content": {
+				"shit": {
+			"type": "item",
+			"content": "rainbow:shit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 0
+		},
+		"black_tea": {
+			"type": "item",
+			"content": "youkaishomecoming:black_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"dassai": {
+			"type": "item",
+			"content": "youkaishomecoming:dassai",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"kappa_village": {
+			"type": "item",
+			"content": "youkaishomecoming:kappa_village",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"potion_recall": {
+			"type": "item",
+			"content": "bountifulbaubles:potion_recall",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"green_water": {
+			"type": "item",
+			"content": "youkaishomecoming:green_water",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"kiku": {
+			"type": "item",
+			"content": "youkaishomecoming:kiku",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"genmai_tea": {
+			"type": "item",
+			"content": "youkaishomecoming:genmai_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"pomegranate_black_tea": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_black_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"mead": {
+			"type": "item",
+			"content": "youkaishomecoming:mead",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"daiginjo": {
+			"type": "item",
+			"content": "youkaishomecoming:daiginjo",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"apple_cider": {
+			"type": "item",
+			"content": "farmersdelight:apple_cider",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"cornflower_tea": {
+			"type": "item",
+			"content": "youkaishomecoming:cornflower_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"white_tea": {
+			"type": "item",
+			"content": "youkaishomecoming:white_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"espresso": {
+			"type": "item",
+			"content": "youkaishomecoming:espresso",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"suigei": {
+			"type": "item",
+			"content": "youkaishomecoming:suigei",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"oolong_tea": {
+			"type": "item",
+			"content": "youkaishomecoming:oolong_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"full_moons_eve": {
+			"type": "item",
+			"content": "youkaishomecoming:full_moons_eve",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"green_tea": {
+			"type": "item",
+			"content": "youkaishomecoming:green_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"sakura_honey_tea": {
+			"type": "item",
+			"content": "youkaishomecoming:sakura_honey_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"mio": {
+			"type": "item",
+			"content": "youkaishomecoming:mio",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"saidi_tea": {
+			"type": "item",
+			"content": "youkaishomecoming:saidi_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"potion_wormhole": {
+			"type": "item",
+			"content": "bountifulbaubles:potion_wormhole",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"scarlet_mist": {
+			"type": "item",
+			"content": "youkaishomecoming:scarlet_mist",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"wind_priestesses": {
+			"type": "item",
+			"content": "youkaishomecoming:wind_priestesses",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"fish_oil": {
+			"type": "item",
+			"content": "alexsmobs:fish_oil",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"tengu_tango": {
+			"type": "item",
+			"content": "youkaishomecoming:tengu_tango",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"americano": {
+			"type": "item",
+			"content": "youkaishomecoming:americano",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"lime_green_tea": {
+			"type": "item",
+			"content": "collectorsreap:lime_green_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"scarlet_tea": {
+			"type": "item",
+			"content": "youkaishomecoming:scarlet_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"hakutsuru": {
+			"type": "item",
+			"content": "youkaishomecoming:hakutsuru",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"sparrow_sake": {
+			"type": "item",
+			"content": "youkaishomecoming:sparrow_sake",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"ristretto": {
+			"type": "item",
+			"content": "youkaishomecoming:ristretto",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 10
+		},
+		"shulker_mollusk": {
+			"type": "item",
+			"content": "endersdelight:shulker_mollusk",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"lava_pufferfish_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:lava_pufferfish_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"builders_tea": {
+			"type": "item",
+			"content": "create:builders_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"salmon_slice": {
+			"type": "item",
+			"content": "farmersdelight:salmon_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"tropical_fish": {
+			"type": "item",
+			"content": "minecraft:tropical_fish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"potato": {
+			"type": "item",
+			"content": "minecraft:potato",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"chicken_cuts": {
+			"type": "item",
+			"content": "farmersdelight:chicken_cuts",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"crab_leg": {
+			"type": "item",
+			"content": "quark:crab_leg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"roe": {
+			"type": "item",
+			"content": "youkaishomecoming:roe",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"frost_berries": {
+			"type": "item",
+			"content": "smc:frost_berries",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"pike_slice": {
+			"type": "item",
+			"content": "abnormals_delight:pike_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"dried_kelp": {
+			"type": "item",
+			"content": "minecraft:dried_kelp",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"strawberry_cake_slice": {
+			"type": "item",
+			"content": "abnormals_delight:strawberry_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"banana_cake_slice": {
+			"type": "item",
+			"content": "abnormals_delight:banana_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"venison_shanks": {
+			"type": "item",
+			"content": "abnormals_delight:venison_shanks",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"lava_pufferfish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:lava_pufferfish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"raw_catfish_slice": {
+			"type": "item",
+			"content": "alexsdelight:raw_catfish_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"raw_lamprey_fillet": {
+			"type": "item",
+			"content": "youkaishomecoming:raw_lamprey_fillet",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"pufferfish": {
+			"type": "item",
+			"content": "minecraft:pufferfish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"obsidianfish_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:obsidianfish_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"wither_bonefish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:wither_bonefish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"yucca_fruit": {
+			"type": "item",
+			"content": "atmospheric:yucca_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"passion_fruit": {
+			"type": "item",
+			"content": "atmospheric:passion_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"soulsucker_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:soulsucker_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"koi": {
+			"type": "item",
+			"content": "environmental:koi",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"lime_slice": {
+			"type": "item",
+			"content": "collectorsreap:lime_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"glowcheese": {
+			"type": "item",
+			"content": "netherexp:glowcheese",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"cherries": {
+			"type": "item",
+			"content": "environmental:cherries",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"cod_slice": {
+			"type": "item",
+			"content": "farmersdelight:cod_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"chocolate_cake_slice": {
+			"type": "item",
+			"content": "abnormals_delight:chocolate_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"pumpkin_cake_slice": {
+			"type": "item",
+			"content": "create_central_kitchen:pumpkin_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"eyeball_fish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:eyeball_fish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"glowdine_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:glowdine_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"shulker_filet": {
+			"type": "item",
+			"content": "endersdelight:shulker_filet",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"rainbow_jelly": {
+			"type": "item",
+			"content": "alexsmobs:rainbow_jelly",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"mint_cake_slice": {
+			"type": "item",
+			"content": "abnormals_delight:mint_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"beetroot": {
+			"type": "item",
+			"content": "minecraft:beetroot",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"magmacubefish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:magmacubefish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"fortress_grouper": {
+			"type": "item",
+			"content": "netherdepthsupgrade:fortress_grouper",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"adzuki_cake_slice": {
+			"type": "item",
+			"content": "abnormals_delight:adzuki_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"yucca_gateau_slice": {
+			"type": "item",
+			"content": "abnormals_delight:yucca_gateau_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"sinister_carrot": {
+			"type": "item",
+			"content": "domesticationinnovation:sinister_carrot",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"mutton_chops": {
+			"type": "item",
+			"content": "farmersdelight:mutton_chops",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"glowdine": {
+			"type": "item",
+			"content": "netherdepthsupgrade:glowdine",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"bonefish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:bonefish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"sweet_berry_cake_slice": {
+			"type": "item",
+			"content": "create_central_kitchen:sweet_berry_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"onion_slice": {
+			"type": "item",
+			"content": "onion_onion:onion_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"perch_slice": {
+			"type": "item",
+			"content": "abnormals_delight:perch_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"cabbage_leaf": {
+			"type": "item",
+			"content": "farmersdelight:cabbage_leaf",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"hot_cream": {
+			"type": "item",
+			"content": "mynethersdelight:hot_cream",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"yucca_cake_slice": {
+			"type": "item",
+			"content": "create_central_kitchen:yucca_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"maggot": {
+			"type": "item",
+			"content": "alexsmobs:maggot",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"vanilla_cake_slice": {
+			"type": "item",
+			"content": "abnormals_delight:vanilla_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"mite_crust": {
+			"type": "item",
+			"content": "endersdelight:mite_crust",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"tomato": {
+			"type": "item",
+			"content": "farmersdelight:tomato",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"red_velvet_cake_slice": {
+			"type": "item",
+			"content": "youkaishomecoming:red_velvet_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"pea": {
+			"type": "item",
+			"content": "smc:pea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"aloe_cake_slice": {
+			"type": "item",
+			"content": "create_central_kitchen:aloe_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"passionfruit_cake_slice": {
+			"type": "item",
+			"content": "create_central_kitchen:passionfruit_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"magmacubefish_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:magmacubefish_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 20
+		},
+		"yucca_gummy": {
+			"type": "item",
+			"content": "collectorsreap:yucca_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"hoglin_sausage": {
+			"type": "item",
+			"content": "mynethersdelight:hoglin_sausage",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"pumpkin_gummy": {
+			"type": "item",
+			"content": "collectorsreap:pumpkin_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"fairy_candy": {
+			"type": "item",
+			"content": "youkaishomecoming:fairy_candy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"flesh": {
+			"type": "item",
+			"content": "youkaishomecoming:flesh",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"chorus_juice": {
+			"type": "item",
+			"content": "endersdelight:chorus_juice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"platinum_bass_slice": {
+			"type": "item",
+			"content": "collectorsreap:platinum_bass_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"raw_catfish": {
+			"type": "item",
+			"content": "alexsmobs:raw_catfish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"incomplete_pumpkin_pie": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_pumpkin_pie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"glow_berries": {
+			"type": "item",
+			"content": "minecraft:glow_berries",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"crispy_skewer": {
+			"type": "item",
+			"content": "endersdelight:crispy_skewer",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"incomplete_cherry_pie": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_cherry_pie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"incomplete_lime_pie": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_lime_pie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"spider_eye": {
+			"type": "item",
+			"content": "minecraft:spider_eye",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"maple_cookie": {
+			"type": "item",
+			"content": "abnormals_delight:maple_cookie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"minced_beef": {
+			"type": "item",
+			"content": "farmersdelight:minced_beef",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"incomplete_sweet_berry_cheesecake": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_sweet_berry_cheesecake",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"apple_gummy": {
+			"type": "item",
+			"content": "collectorsreap:apple_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"passion_fruit_gummy": {
+			"type": "item",
+			"content": "collectorsreap:passion_fruit_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"incomplete_truffle_pie": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_truffle_pie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"raw_bunfungus_drumstick": {
+			"type": "item",
+			"content": "alexsdelight:raw_bunfungus_drumstick",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"adzuki_gummy": {
+			"type": "item",
+			"content": "collectorsreap:adzuki_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"spicy_strips": {
+			"type": "item",
+			"content": "smc:spicy_strips",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"aloe_gummy": {
+			"type": "item",
+			"content": "collectorsreap:aloe_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"cherry_cookie": {
+			"type": "item",
+			"content": "abnormals_delight:cherry_cookie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"bolloom_fruit": {
+			"type": "item",
+			"content": "endergetic:bolloom_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"roast_ear": {
+			"type": "item",
+			"content": "mynethersdelight:roast_ear",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"green_tea_gummy": {
+			"type": "item",
+			"content": "collectorsreap:green_tea_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"lime_milkshake": {
+			"type": "item",
+			"content": "collectorsreap:lime_milkshake",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"vanilla_gummy": {
+			"type": "item",
+			"content": "collectorsreap:vanilla_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"raw_pasta": {
+			"type": "item",
+			"content": "farmersdelight:raw_pasta",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"platinum_bass_head": {
+			"type": "item",
+			"content": "collectorsreap:platinum_bass_head",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"cooked_perch_slice": {
+			"type": "item",
+			"content": "abnormals_delight:cooked_perch_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"bacon": {
+			"type": "item",
+			"content": "farmersdelight:bacon",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"incomplete_mulberry_pie": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_mulberry_pie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"flesh_dumplings": {
+			"type": "item",
+			"content": "youkaishomecoming:flesh_dumplings",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"raw_lamprey": {
+			"type": "item",
+			"content": "youkaishomecoming:raw_lamprey",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"pomegranate_seeds": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_seeds",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"sweet_berries": {
+			"type": "item",
+			"content": "minecraft:sweet_berries",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"tiger_prawn": {
+			"type": "item",
+			"content": "collectorsreap:tiger_prawn",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"strawberry_gummy": {
+			"type": "item",
+			"content": "collectorsreap:strawberry_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"pomegranate_milkshake": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_milkshake",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"lobster_tail": {
+			"type": "item",
+			"content": "alexsmobs:lobster_tail",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"chocolate_gummy": {
+			"type": "item",
+			"content": "collectorsreap:chocolate_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"loose_moose_rib": {
+			"type": "item",
+			"content": "alexsdelight:loose_moose_rib",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"incomplete_apple_pie": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_apple_pie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"beetroot_gummy": {
+			"type": "item",
+			"content": "collectorsreap:beetroot_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"black_tea_gummy": {
+			"type": "item",
+			"content": "collectorsreap:black_tea_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"onion_rings": {
+			"type": "item",
+			"content": "onion_onion:onion_rings",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"bullet_pepper": {
+			"type": "item",
+			"content": "mynethersdelight:bullet_pepper",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"lime_gummy": {
+			"type": "item",
+			"content": "collectorsreap:lime_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"mint_gummy": {
+			"type": "item",
+			"content": "collectorsreap:mint_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"onion": {
+			"type": "item",
+			"content": "farmersdelight:onion",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"honey_cookie": {
+			"type": "item",
+			"content": "farmersdelight:honey_cookie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"melon_gummy": {
+			"type": "item",
+			"content": "collectorsreap:melon_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"mutton": {
+			"type": "item",
+			"content": "minecraft:mutton",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"aloe_leaves": {
+			"type": "item",
+			"content": "atmospheric:aloe_leaves",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"cookie": {
+			"type": "item",
+			"content": "minecraft:cookie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"glow_berry_gummy": {
+			"type": "item",
+			"content": "collectorsreap:glow_berry_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"sweet_berry_cookie": {
+			"type": "item",
+			"content": "farmersdelight:sweet_berry_cookie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"kangaroo_shank": {
+			"type": "item",
+			"content": "alexsdelight:kangaroo_shank",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"coffee_gummy": {
+			"type": "item",
+			"content": "collectorsreap:coffee_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"cabbage": {
+			"type": "item",
+			"content": "farmersdelight:cabbage",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"pomegranate_cake_slice": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"chieftain_crab_meat": {
+			"type": "item",
+			"content": "collectorsreap:chieftain_crab_meat",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"banana_gummy": {
+			"type": "item",
+			"content": "collectorsreap:banana_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"sweet_berry_gummy": {
+			"type": "item",
+			"content": "collectorsreap:sweet_berry_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"cake_slice": {
+			"type": "item",
+			"content": "farmersdelight:cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"cod": {
+			"type": "item",
+			"content": "minecraft:cod",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"pomegranate_gummy": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"chicken": {
+			"type": "item",
+			"content": "minecraft:chicken",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"poisonous_potato": {
+			"type": "item",
+			"content": "minecraft:poisonous_potato",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"minced_strider": {
+			"type": "item",
+			"content": "mynethersdelight:minced_strider",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"obsidianfish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:obsidianfish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"venison": {
+			"type": "item",
+			"content": "environmental:venison",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"bison_mince": {
+			"type": "item",
+			"content": "alexsdelight:bison_mince",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"lime_cake_slice": {
+			"type": "item",
+			"content": "collectorsreap:lime_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"yellow_tea_gummy": {
+			"type": "item",
+			"content": "collectorsreap:yellow_tea_gummy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"con_panna": {
+			"type": "item",
+			"content": "youkaishomecoming:con_panna",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"big_popsicle": {
+			"type": "item",
+			"content": "youkaishomecoming:big_popsicle",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"duck_fillet": {
+			"type": "item",
+			"content": "abnormals_delight:duck_fillet",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"salmon": {
+			"type": "item",
+			"content": "minecraft:salmon",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"melon_slice": {
+			"type": "item",
+			"content": "minecraft:melon_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"currant": {
+			"type": "item",
+			"content": "atmospheric:currant",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"lime": {
+			"type": "item",
+			"content": "collectorsreap:lime",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"magma_cake_slice": {
+			"type": "item",
+			"content": "mynethersdelight:magma_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"wheat_dough": {
+			"type": "item",
+			"content": "farmersdelight:wheat_dough",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"mulberry_cookie": {
+			"type": "item",
+			"content": "abnormals_delight:mulberry_cookie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"pie_crust": {
+			"type": "item",
+			"content": "farmersdelight:pie_crust",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"affogato": {
+			"type": "item",
+			"content": "youkaishomecoming:affogato",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"blazefish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:blazefish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"incomplete_portobello_quiche": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_portobello_quiche",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 30
+		},
+		"pumpkin_slice": {
+			"type": "item",
+			"content": "farmersdelight:pumpkin_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"butter": {
+			"type": "item",
+			"content": "youkaishomecoming:butter",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"honey_cake_slice": {
+			"type": "item",
+			"content": "create_central_kitchen:honey_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"pomegranate_smoothie": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_smoothie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"lime_cookie": {
+			"type": "item",
+			"content": "collectorsreap:lime_cookie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"higi_chocolate": {
+			"type": "item",
+			"content": "youkaishomecoming:higi_chocolate",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"porkchop": {
+			"type": "item",
+			"content": "minecraft:porkchop",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_glowdine_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:cooked_glowdine_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"flesh_roll": {
+			"type": "item",
+			"content": "youkaishomecoming:flesh_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"gongylidia": {
+			"type": "item",
+			"content": "alexsmobs:gongylidia",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"shimmering_passion_fruit": {
+			"type": "item",
+			"content": "atmospheric:shimmering_passion_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"chocolate_cake_slice": {
+			"type": "item",
+			"content": "create_central_kitchen:chocolate_cake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"strider_egg": {
+			"type": "item",
+			"content": "mynethersdelight:strider_egg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"carrot": {
+			"type": "item",
+			"content": "minecraft:carrot",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"spicy_cotton": {
+			"type": "item",
+			"content": "mynethersdelight:spicy_cotton",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"rabbit": {
+			"type": "item",
+			"content": "minecraft:rabbit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"melon_popsicle": {
+			"type": "item",
+			"content": "farmersdelight:melon_popsicle",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_lava_pufferfish_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:cooked_lava_pufferfish_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"aloe_gel_bottle": {
+			"type": "item",
+			"content": "atmospheric:aloe_gel_bottle",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"candied_lime": {
+			"type": "item",
+			"content": "collectorsreap:candied_lime",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"raw_scholar_ginkgo": {
+			"type": "item",
+			"content": "youkaishomecoming:raw_scholar_ginkgo",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_cod_slice": {
+			"type": "item",
+			"content": "farmersdelight:cooked_cod_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"lime_popsicle": {
+			"type": "item",
+			"content": "collectorsreap:lime_popsicle",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_catfish_slice": {
+			"type": "item",
+			"content": "alexsdelight:cooked_catfish_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"crawling_sandwich": {
+			"type": "item",
+			"content": "endersdelight:crawling_sandwich",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"sweet_berry_cheesecake_slice": {
+			"type": "item",
+			"content": "farmersdelight:sweet_berry_cheesecake_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"pumpkin_pie_slice": {
+			"type": "item",
+			"content": "create_central_kitchen:pumpkin_pie_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_magmacubefish_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:cooked_magmacubefish_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"rotten_apple": {
+			"type": "item",
+			"content": "domesticationinnovation:rotten_apple",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"chocolate_pie_slice": {
+			"type": "item",
+			"content": "farmersdelight:chocolate_pie_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"roasted_yucca_fruit": {
+			"type": "item",
+			"content": "atmospheric:roasted_yucca_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"searing_cod_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:searing_cod_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"searing_cod": {
+			"type": "item",
+			"content": "netherdepthsupgrade:searing_cod",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"beef": {
+			"type": "item",
+			"content": "minecraft:beef",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"limeade": {
+			"type": "item",
+			"content": "collectorsreap:limeade",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"chieftain_leg": {
+			"type": "item",
+			"content": "collectorsreap:chieftain_leg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"ghasta": {
+			"type": "item",
+			"content": "mynethersdelight:ghasta",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"lime_pie_slice": {
+			"type": "item",
+			"content": "collectorsreap:lime_pie_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"mulberry_pie_slice": {
+			"type": "item",
+			"content": "create_central_kitchen:mulberry_pie_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_salmon_slice": {
+			"type": "item",
+			"content": "farmersdelight:cooked_salmon_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"blobfish": {
+			"type": "item",
+			"content": "alexsmobs:blobfish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"wraithing_flesh": {
+			"type": "item",
+			"content": "netherexp:wraithing_flesh",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"clam_meat": {
+			"type": "item",
+			"content": "collectorsreap:clam_meat",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"flesh_chocolate_mousse": {
+			"type": "item",
+			"content": "youkaishomecoming:flesh_chocolate_mousse",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"blazefish_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:blazefish_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"chorus_pie_slice": {
+			"type": "item",
+			"content": "endersdelight:chorus_pie_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"platinum_bass": {
+			"type": "item",
+			"content": "collectorsreap:platinum_bass",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_obsidianfish_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:cooked_obsidianfish_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_soulsucker_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:cooked_soulsucker_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"apple_pie_slice": {
+			"type": "item",
+			"content": "farmersdelight:apple_pie_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_bunfungus_drumstick": {
+			"type": "item",
+			"content": "alexsdelight:cooked_bunfungus_drumstick",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"ghast_dough": {
+			"type": "item",
+			"content": "mynethersdelight:ghast_dough",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"moose_ribs": {
+			"type": "item",
+			"content": "alexsmobs:moose_ribs",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"flying_fish": {
+			"type": "item",
+			"content": "alexsmobs:flying_fish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"tsukimi_dango": {
+			"type": "item",
+			"content": "youkaishomecoming:tsukimi_dango",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_venison_shanks": {
+			"type": "item",
+			"content": "abnormals_delight:cooked_venison_shanks",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_mutton_chops": {
+			"type": "item",
+			"content": "farmersdelight:cooked_mutton_chops",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"cooked_chicken_cuts": {
+			"type": "item",
+			"content": "farmersdelight:cooked_chicken_cuts",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 40
+		},
+		"oily_bean_curd": {
+			"type": "item",
+			"content": "youkaishomecoming:oily_bean_curd",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"ender_paella": {
+			"type": "item",
+			"content": "endersdelight:ender_paella",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"cooked_kangaroo_shank": {
+			"type": "item",
+			"content": "alexsdelight:cooked_kangaroo_shank",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"twisted_cereal": {
+			"type": "item",
+			"content": "endersdelight:twisted_cereal",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"blood_orange": {
+			"type": "item",
+			"content": "atmospheric:blood_orange",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"ancient_fruit": {
+			"type": "item",
+			"content": "quark:ancient_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"raw_bison": {
+			"type": "item",
+			"content": "alexsdelight:raw_bison",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"dog_food": {
+			"type": "item",
+			"content": "farmersdelight:dog_food",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"rotten_flesh": {
+			"type": "item",
+			"content": "minecraft:rotten_flesh",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"raw_bunfungus": {
+			"type": "item",
+			"content": "alexsdelight:raw_bunfungus",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"endermite_stew_wood": {
+			"type": "item",
+			"content": "endersdelight:endermite_stew_wood",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"slabdish": {
+			"type": "item",
+			"content": "abnormals_delight:slabdish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"cooked_dirt": {
+			"type": "item",
+			"content": "smc:cooked_dirt",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"boiled_emu_egg": {
+			"type": "item",
+			"content": "alexsmobs:boiled_emu_egg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"banana": {
+			"type": "item",
+			"content": "alexsmobs:banana",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"orange": {
+			"type": "item",
+			"content": "atmospheric:orange",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"boiled_egg": {
+			"type": "item",
+			"content": "mynethersdelight:boiled_egg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"duck": {
+			"type": "item",
+			"content": "environmental:duck",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"sakura_mochi": {
+			"type": "item",
+			"content": "youkaishomecoming:sakura_mochi",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"chocolate": {
+			"type": "item",
+			"content": "smc:chocolate",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"canned_flesh": {
+			"type": "item",
+			"content": "youkaishomecoming:canned_flesh",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"coffee_mochi": {
+			"type": "item",
+			"content": "youkaishomecoming:coffee_mochi",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"kangaroo_meat": {
+			"type": "item",
+			"content": "alexsmobs:kangaroo_meat",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"golden_apple": {
+			"type": "item",
+			"content": "minecraft:golden_apple",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"cooked_mandrake_root": {
+			"type": "item",
+			"content": "youkaishomecoming:cooked_mandrake_root",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"spicy_bar": {
+			"type": "item",
+			"content": "smc:spicy_bar",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"chorus_stew_wood": {
+			"type": "item",
+			"content": "endersdelight:chorus_stew_wood",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"matcha_mochi": {
+			"type": "item",
+			"content": "youkaishomecoming:matcha_mochi",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"scarlet_devil_cake": {
+			"type": "item",
+			"content": "youkaishomecoming:scarlet_devil_cake",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"fried_egg": {
+			"type": "item",
+			"content": "farmersdelight:fried_egg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"hot_cream_cone": {
+			"type": "item",
+			"content": "mynethersdelight:hot_cream_cone",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"endermite_stew": {
+			"type": "item",
+			"content": "endersdelight:endermite_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"pomegranate_slice": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"mochi": {
+			"type": "item",
+			"content": "youkaishomecoming:mochi",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"currant_muffin": {
+			"type": "item",
+			"content": "atmospheric:currant_muffin",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"tofu": {
+			"type": "item",
+			"content": "youkaishomecoming:tofu",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"tarte_lune_slice": {
+			"type": "item",
+			"content": "youkaishomecoming:tarte_lune_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"candy_apple": {
+			"type": "item",
+			"content": "youkaishomecoming:candy_apple",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"senbei": {
+			"type": "item",
+			"content": "youkaishomecoming:senbei",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"pearl_pasta": {
+			"type": "item",
+			"content": "endersdelight:pearl_pasta",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"passion_fruit_tart": {
+			"type": "item",
+			"content": "atmospheric:passion_fruit_tart",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"chorus_fruit": {
+			"type": "item",
+			"content": "minecraft:chorus_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"chocolate_arils": {
+			"type": "item",
+			"content": "collectorsreap:chocolate_arils",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"cooked_bacon": {
+			"type": "item",
+			"content": "farmersdelight:cooked_bacon",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"strider_slice": {
+			"type": "item",
+			"content": "mynethersdelight:strider_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"ender_paella_wood": {
+			"type": "item",
+			"content": "endersdelight:ender_paella_wood",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"enchanted_golden_apple": {
+			"type": "item",
+			"content": "minecraft:enchanted_golden_apple",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"cooked_platinum_bass_head": {
+			"type": "item",
+			"content": "collectorsreap:cooked_platinum_bass_head",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"apple": {
+			"type": "item",
+			"content": "minecraft:apple",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"astera_apple": {
+			"type": "item",
+			"content": "smc:astera_apple",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"tea_mocha": {
+			"type": "item",
+			"content": "youkaishomecoming:tea_mocha",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"cooked_platinum_bass_slice": {
+			"type": "item",
+			"content": "collectorsreap:cooked_platinum_bass_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"milk_popsicle": {
+			"type": "item",
+			"content": "youkaishomecoming:milk_popsicle",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"mosquito_repellent_stew": {
+			"type": "item",
+			"content": "alexsmobs:mosquito_repellent_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"hoglin_loin": {
+			"type": "item",
+			"content": "mynethersdelight:hoglin_loin",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"tomato_sauce": {
+			"type": "item",
+			"content": "farmersdelight:tomato_sauce",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"portobello_quiche_slice": {
+			"type": "item",
+			"content": "collectorsreap:portobello_quiche_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"pearl_pasta_wood": {
+			"type": "item",
+			"content": "endersdelight:pearl_pasta_wood",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"cooked_pike_slice": {
+			"type": "item",
+			"content": "abnormals_delight:cooked_pike_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"broccoli": {
+			"type": "item",
+			"content": "smc:broccoli",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"dragon_fruit": {
+			"type": "item",
+			"content": "atmospheric:dragon_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"latte": {
+			"type": "item",
+			"content": "youkaishomecoming:latte",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"twisted_cereal_wood": {
+			"type": "item",
+			"content": "endersdelight:twisted_cereal_wood",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"cooked_duck_fillet": {
+			"type": "item",
+			"content": "abnormals_delight:cooked_duck_fillet",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"beef_patty": {
+			"type": "item",
+			"content": "farmersdelight:beef_patty",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"chorus_stew": {
+			"type": "item",
+			"content": "endersdelight:chorus_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"cooked_loose_moose_rib": {
+			"type": "item",
+			"content": "alexsdelight:cooked_loose_moose_rib",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"crystal_fruit": {
+			"type": "item",
+			"content": "bosses_of_mass_destruction:crystal_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"roasted_sausage": {
+			"type": "item",
+			"content": "mynethersdelight:roasted_sausage",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 50
+		},
+		"incomplete_hamburger": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_hamburger",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"deviled_egg": {
+			"type": "item",
+			"content": "mynethersdelight:deviled_egg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"plate_of_striderloaf": {
+			"type": "item",
+			"content": "mynethersdelight:plate_of_striderloaf",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"chieftain_claw": {
+			"type": "item",
+			"content": "collectorsreap:chieftain_claw",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"bowl_of_flesh_feast": {
+			"type": "item",
+			"content": "youkaishomecoming:bowl_of_flesh_feast",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"cooked_tiger_prawn": {
+			"type": "item",
+			"content": "collectorsreap:cooked_tiger_prawn",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"macchiato": {
+			"type": "item",
+			"content": "youkaishomecoming:macchiato",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"cabbage_rolls": {
+			"type": "item",
+			"content": "farmersdelight:cabbage_rolls",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"berry_limeade": {
+			"type": "item",
+			"content": "collectorsreap:berry_limeade",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"ham": {
+			"type": "item",
+			"content": "farmersdelight:ham",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"cooked_rabbit": {
+			"type": "item",
+			"content": "minecraft:cooked_rabbit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"incomplete_chicken_sandwich": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_chicken_sandwich",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"sopa_de_macaco": {
+			"type": "item",
+			"content": "alexsmobs:sopa_de_macaco",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"nether_salad": {
+			"type": "item",
+			"content": "farmersdelight:nether_salad",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"pink_limeade": {
+			"type": "item",
+			"content": "collectorsreap:pink_limeade",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"uni": {
+			"type": "item",
+			"content": "collectorsreap:uni",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"uncanny_cookies": {
+			"type": "item",
+			"content": "endersdelight:uncanny_cookies",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"cerebrage": {
+			"type": "item",
+			"content": "netherexp:cerebrage",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"cooked_flesh": {
+			"type": "item",
+			"content": "youkaishomecoming:cooked_flesh",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"plum": {
+			"type": "item",
+			"content": "environmental:plum",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"cooked_cod": {
+			"type": "item",
+			"content": "minecraft:cooked_cod",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"incomplete_portobello_burger": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_portobello_burger",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"incomplete_bacon_sandwich": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_bacon_sandwich",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"incomplete_egg_sandwich": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_egg_sandwich",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"incomplete_mutton_wrap": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_mutton_wrap",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"cappuccino": {
+			"type": "item",
+			"content": "youkaishomecoming:cappuccino",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"cooked_catfish": {
+			"type": "item",
+			"content": "alexsmobs:cooked_catfish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"baked_potato": {
+			"type": "item",
+			"content": "minecraft:baked_potato",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"bread": {
+			"type": "item",
+			"content": "minecraft:bread",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"bison_patty": {
+			"type": "item",
+			"content": "alexsdelight:bison_patty",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"strange_eclair": {
+			"type": "item",
+			"content": "endersdelight:strange_eclair",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 60
+		},
+		"yakumo_inari": {
+			"type": "item",
+			"content": "youkaishomecoming:yakumo_inari",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"cooked_lobster_tail": {
+			"type": "item",
+			"content": "alexsmobs:cooked_lobster_tail",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"salmon_tartare": {
+			"type": "item",
+			"content": "collectorsreap:salmon_tartare",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"cooked_centipede_leg": {
+			"type": "item",
+			"content": "alexsdelight:cooked_centipede_leg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"koishi_mousse": {
+			"type": "item",
+			"content": "youkaishomecoming:koishi_mousse",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"scholar_ginkgo": {
+			"type": "item",
+			"content": "youkaishomecoming:scholar_ginkgo",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"steamed_egg_in_bamboo": {
+			"type": "item",
+			"content": "youkaishomecoming:steamed_egg_in_bamboo",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"bloody_flesh": {
+			"type": "item",
+			"content": "youkaishomecoming:bloody_flesh",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"bleeding_tartar": {
+			"type": "item",
+			"content": "mynethersdelight:bleeding_tartar",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"cooked_rice": {
+			"type": "item",
+			"content": "farmersdelight:cooked_rice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"sekibankiyaki": {
+			"type": "item",
+			"content": "youkaishomecoming:sekibankiyaki",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"pomegranate_ice_cream": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_ice_cream",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"higan_soup": {
+			"type": "item",
+			"content": "youkaishomecoming:higan_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"spicy_grenadine_jelly": {
+			"type": "item",
+			"content": "collectorsreap:spicy_grenadine_jelly",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"raw_imitation_bear_paw": {
+			"type": "item",
+			"content": "youkaishomecoming:raw_imitation_bear_paw",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"suspicious_stew": {
+			"type": "item",
+			"content": "minecraft:suspicious_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"onigili": {
+			"type": "item",
+			"content": "youkaishomecoming:onigili",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"baked_portobello_cap": {
+			"type": "item",
+			"content": "collectorsreap:baked_portobello_cap",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"mixed_salad": {
+			"type": "item",
+			"content": "farmersdelight:mixed_salad",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"poor_god_soup": {
+			"type": "item",
+			"content": "youkaishomecoming:poor_god_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"tutu_congee": {
+			"type": "item",
+			"content": "youkaishomecoming:tutu_congee",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"bamboo_mizuyokan": {
+			"type": "item",
+			"content": "youkaishomecoming:bamboo_mizuyokan",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"golden_broccoli": {
+			"type": "item",
+			"content": "smc:golden_broccoli",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"honey_bottle": {
+			"type": "item",
+			"content": "minecraft:honey_bottle",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"cosmic_cod": {
+			"type": "item",
+			"content": "alexsmobs:cosmic_cod",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"maple_glazed_bacon": {
+			"type": "item",
+			"content": "abnormals_delight:maple_glazed_bacon",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"golden_carrot": {
+			"type": "item",
+			"content": "minecraft:golden_carrot",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"kelp_roll_slice": {
+			"type": "item",
+			"content": "farmersdelight:kelp_roll_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"fruit_salad": {
+			"type": "item",
+			"content": "farmersdelight:fruit_salad",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"mocha": {
+			"type": "item",
+			"content": "youkaishomecoming:mocha",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"lime_ice_cream": {
+			"type": "item",
+			"content": "collectorsreap:lime_ice_cream",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"hot_wings": {
+			"type": "item",
+			"content": "mynethersdelight:hot_wings",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"mushroom_stew": {
+			"type": "item",
+			"content": "minecraft:mushroom_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"mint_limeade": {
+			"type": "item",
+			"content": "collectorsreap:mint_limeade",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"sweet_roll": {
+			"type": "item",
+			"content": "create:sweet_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"nether_pizza_slice": {
+			"type": "item",
+			"content": "netherexp:nether_pizza_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"yashouma_dango": {
+			"type": "item",
+			"content": "youkaishomecoming:yashouma_dango",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"warped_kelp_roll_slice": {
+			"type": "item",
+			"content": "netherdepthsupgrade:warped_kelp_roll_slice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"steamed_pea_flour_cake": {
+			"type": "item",
+			"content": "smc:steamed_pea_flour_cake",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"mantou": {
+			"type": "item",
+			"content": "youkaishomecoming:mantou",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"cooked_mutton": {
+			"type": "item",
+			"content": "minecraft:cooked_mutton",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"candied_orange_slices": {
+			"type": "item",
+			"content": "atmospheric:candied_orange_slices",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"bar_of_chocolate": {
+			"type": "item",
+			"content": "create:bar_of_chocolate",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"crimson_carrot_roast": {
+			"type": "item",
+			"content": "collectorsreap:crimson_carrot_roast",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"tobiko_gunkan": {
+			"type": "item",
+			"content": "youkaishomecoming:tobiko_gunkan",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"doughnut": {
+			"type": "item",
+			"content": "youkaishomecoming:doughnut",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"cooked_venison": {
+			"type": "item",
+			"content": "environmental:cooked_venison",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"beetroot_soup": {
+			"type": "item",
+			"content": "minecraft:beetroot_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"hogham": {
+			"type": "item",
+			"content": "netherexp:hogham",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"cooked_salmon": {
+			"type": "item",
+			"content": "minecraft:cooked_salmon",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"oyaki": {
+			"type": "item",
+			"content": "youkaishomecoming:oyaki",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"roasted_lamprey_fillet": {
+			"type": "item",
+			"content": "youkaishomecoming:roasted_lamprey_fillet",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"maggot_salad": {
+			"type": "item",
+			"content": "alexsdelight:maggot_salad",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"cooked_chicken": {
+			"type": "item",
+			"content": "minecraft:cooked_chicken",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"strawberry_jam_bun": {
+			"type": "item",
+			"content": "collectorsreap:strawberry_jam_bun",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 70
+		},
+		"soulsucker_roll": {
+			"type": "item",
+			"content": "netherdepthsupgrade:soulsucker_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"cream_broccoli": {
+			"type": "item",
+			"content": "smc:cream_broccoli",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"stuffed_shulker_bowl": {
+			"type": "item",
+			"content": "endersdelight:stuffed_shulker_bowl",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"magmacubefish_roll": {
+			"type": "item",
+			"content": "netherdepthsupgrade:magmacubefish_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"cooked_loin": {
+			"type": "item",
+			"content": "mynethersdelight:cooked_loin",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"uni_roll": {
+			"type": "item",
+			"content": "collectorsreap:uni_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"salmon_roll": {
+			"type": "item",
+			"content": "farmersdelight:salmon_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"potato_fritters": {
+			"type": "item",
+			"content": "collectorsreap:potato_fritters",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"obsidianfish_roll": {
+			"type": "item",
+			"content": "netherdepthsupgrade:obsidianfish_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"blazefish_roll": {
+			"type": "item",
+			"content": "netherdepthsupgrade:blazefish_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"lava_pufferfish_roll": {
+			"type": "item",
+			"content": "netherdepthsupgrade:lava_pufferfish_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"chocolate_glazed_berries": {
+			"type": "item",
+			"content": "create:chocolate_glazed_berries",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"rock_soup": {
+			"type": "item",
+			"content": "mynethersdelight:rock_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"prawn_roll": {
+			"type": "item",
+			"content": "collectorsreap:prawn_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"glow_berry_custard": {
+			"type": "item",
+			"content": "farmersdelight:glow_berry_custard",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"clam_roll": {
+			"type": "item",
+			"content": "collectorsreap:clam_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"spicy_skewer": {
+			"type": "item",
+			"content": "mynethersdelight:spicy_skewer",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"flesh_stew": {
+			"type": "item",
+			"content": "youkaishomecoming:flesh_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"cooked_moose_ribs": {
+			"type": "item",
+			"content": "alexsmobs:cooked_moose_ribs",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"glowdine_roll": {
+			"type": "item",
+			"content": "netherdepthsupgrade:glowdine_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"cod_roll": {
+			"type": "item",
+			"content": "farmersdelight:cod_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"searing_cod_roll": {
+			"type": "item",
+			"content": "netherdepthsupgrade:searing_cod_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"cooked_bunfungus": {
+			"type": "item",
+			"content": "alexsdelight:cooked_bunfungus",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 80
+		},
+		"cooked_eetle_egg": {
+			"type": "item",
+			"content": "endergetic:cooked_eetle_egg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"barbecue_stick": {
+			"type": "item",
+			"content": "farmersdelight:barbecue_stick",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"cooked_duck": {
+			"type": "item",
+			"content": "environmental:cooked_duck",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"dried_fish": {
+			"type": "item",
+			"content": "youkaishomecoming:dried_fish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"cooked_crab_leg": {
+			"type": "item",
+			"content": "quark:cooked_crab_leg",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"higi_doughnut": {
+			"type": "item",
+			"content": "youkaishomecoming:higi_doughnut",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"egg_sandwich": {
+			"type": "item",
+			"content": "farmersdelight:egg_sandwich",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"pork_rice_ball": {
+			"type": "item",
+			"content": "youkaishomecoming:pork_rice_ball",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"stinky_tofu": {
+			"type": "item",
+			"content": "youkaishomecoming:stinky_tofu",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"hotdog": {
+			"type": "item",
+			"content": "mynethersdelight:hotdog",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"cold_tofu": {
+			"type": "item",
+			"content": "youkaishomecoming:cold_tofu",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"cooked_platinum_bass": {
+			"type": "item",
+			"content": "collectorsreap:cooked_platinum_bass",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"udumbara_cake": {
+			"type": "item",
+			"content": "youkaishomecoming:udumbara_cake",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"honeyed_apple": {
+			"type": "item",
+			"content": "create:honeyed_apple",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"astera_jerky": {
+			"type": "item",
+			"content": "smc:astera_jerky",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"jerky": {
+			"type": "item",
+			"content": "smc:jerky",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"shimmering_apple": {
+			"type": "item",
+			"content": "collectorsreap:shimmering_apple",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"fish_mix": {
+			"type": "item",
+			"content": "collectorsreap:fish_mix",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"bun": {
+			"type": "item",
+			"content": "youkaishomecoming:bun",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"sweet_ormosia_mochi_mixed_boiled": {
+			"type": "item",
+			"content": "youkaishomecoming:sweet_ormosia_mochi_mixed_boiled",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"prawn_ceviche": {
+			"type": "item",
+			"content": "collectorsreap:prawn_ceviche",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"blood_curd": {
+			"type": "item",
+			"content": "youkaishomecoming:blood_curd",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"escargot": {
+			"type": "item",
+			"content": "abnormals_delight:escargot",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"mushroom_soup": {
+			"type": "item",
+			"content": "youkaishomecoming:mushroom_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"golden_dragon_fruit": {
+			"type": "item",
+			"content": "atmospheric:golden_dragon_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"dumplings": {
+			"type": "item",
+			"content": "farmersdelight:dumplings",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"avgolemono": {
+			"type": "item",
+			"content": "youkaishomecoming:avgolemono",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"lucky_nugget": {
+			"type": "item",
+			"content": "smc:lucky_nugget",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"ice_tea": {
+			"type": "item",
+			"content": "smc:ice_tea",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"strider_stew": {
+			"type": "item",
+			"content": "mynethersdelight:strider_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"miso_soup": {
+			"type": "item",
+			"content": "youkaishomecoming:miso_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"bone_broth": {
+			"type": "item",
+			"content": "farmersdelight:bone_broth",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"pomegranate_bean_salad": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_bean_salad",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"cooked_porkchop": {
+			"type": "item",
+			"content": "minecraft:cooked_porkchop",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"cooked_kangaroo_meat": {
+			"type": "item",
+			"content": "alexsmobs:cooked_kangaroo_meat",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"frost_pie": {
+			"type": "item",
+			"content": "smc:frost_pie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"orange_pudding": {
+			"type": "item",
+			"content": "atmospheric:orange_pudding",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"tofu_burger": {
+			"type": "item",
+			"content": "youkaishomecoming:tofu_burger",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"ghast_salad": {
+			"type": "item",
+			"content": "mynethersdelight:ghast_salad",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"plate_of_ghasta_with_cream": {
+			"type": "item",
+			"content": "mynethersdelight:plate_of_ghasta_with_cream",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"cooked_hogham": {
+			"type": "item",
+			"content": "netherexp:cooked_hogham",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"pomegranate_custard": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_custard",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"plate_of_stuffed_hoglin": {
+			"type": "item",
+			"content": "mynethersdelight:plate_of_stuffed_hoglin",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"grass_block_pie": {
+			"type": "item",
+			"content": "smc:grass_block_pie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"seven_colored_yokan": {
+			"type": "item",
+			"content": "youkaishomecoming:seven_colored_yokan",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"cooked_beef": {
+			"type": "item",
+			"content": "minecraft:cooked_beef",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"clam_chowder": {
+			"type": "item",
+			"content": "collectorsreap:clam_chowder",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 90
+		},
+		"pike_with_beetroot": {
+			"type": "item",
+			"content": "abnormals_delight:pike_with_beetroot",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 100
+		},
+		"blue_tenderloin_steak": {
+			"type": "item",
+			"content": "mynethersdelight:blue_tenderloin_steak",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 100
+		},
+		"crab_miso": {
+			"type": "item",
+			"content": "collectorsreap:crab_miso",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 100
+		},
+		"salmon_wrapped_prawn": {
+			"type": "item",
+			"content": "collectorsreap:salmon_wrapped_prawn",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 100
+		},
+		"motley_grill": {
+			"type": "item",
+			"content": "onion_onion:motley_grill",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 100
+		},
+		"roasted_bone": {
+			"type": "item",
+			"content": "netherexp:roasted_bone",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 100
+		},
+		"deluxe_salad": {
+			"type": "item",
+			"content": "collectorsreap:deluxe_salad",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"big_rice_ball": {
+			"type": "item",
+			"content": "collectorsreap:big_rice_ball",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"stuffed_potato": {
+			"type": "item",
+			"content": "farmersdelight:stuffed_potato",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"kangaroo_pasta": {
+			"type": "item",
+			"content": "alexsdelight:kangaroo_pasta",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"blazing_red_curry": {
+			"type": "item",
+			"content": "youkaishomecoming:blazing_red_curry",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"gongylidia_bruschetta": {
+			"type": "item",
+			"content": "alexsdelight:gongylidia_bruschetta",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"bacon_and_eggs": {
+			"type": "item",
+			"content": "farmersdelight:bacon_and_eggs",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"strider_with_grilled_fungus": {
+			"type": "item",
+			"content": "mynethersdelight:strider_with_grilled_fungus",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"buttered_legs": {
+			"type": "item",
+			"content": "collectorsreap:buttered_legs",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"incomplete_portobello_wrap": {
+			"type": "item",
+			"content": "create_central_kitchen:incomplete_portobello_wrap",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"crab_lasagna": {
+			"type": "item",
+			"content": "collectorsreap:crab_lasagna",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"burnt_roll": {
+			"type": "item",
+			"content": "mynethersdelight:burnt_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"stygian_pomegranate": {
+			"type": "item",
+			"content": "collectorsreap:stygian_pomegranate",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"prawn_po_boy": {
+			"type": "item",
+			"content": "collectorsreap:prawn_po_boy",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"mutton_wrap": {
+			"type": "item",
+			"content": "farmersdelight:mutton_wrap",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"pea_soup": {
+			"type": "item",
+			"content": "smc:pea_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"glazed_strider": {
+			"type": "item",
+			"content": "collectorsreap:glazed_strider",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"lobster_pasta": {
+			"type": "item",
+			"content": "alexsdelight:lobster_pasta",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"shaved_ice_over_rice": {
+			"type": "item",
+			"content": "youkaishomecoming:shaved_ice_over_rice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"platinum_bass_stew": {
+			"type": "item",
+			"content": "collectorsreap:platinum_bass_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"stuffed_portobello_cap": {
+			"type": "item",
+			"content": "collectorsreap:stuffed_portobello_cap",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"cumberland_loin": {
+			"type": "item",
+			"content": "youkaishomecoming:cumberland_loin",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"bacon_sandwich": {
+			"type": "item",
+			"content": "farmersdelight:bacon_sandwich",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"tomato_sauce_cod": {
+			"type": "item",
+			"content": "youkaishomecoming:tomato_sauce_cod",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"cooked_bison": {
+			"type": "item",
+			"content": "alexsdelight:cooked_bison",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"prawn_stew": {
+			"type": "item",
+			"content": "collectorsreap:prawn_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"rabbit_stew": {
+			"type": "item",
+			"content": "minecraft:rabbit_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"portobello_wrap": {
+			"type": "item",
+			"content": "collectorsreap:portobello_wrap",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"dune_platter": {
+			"type": "item",
+			"content": "abnormals_delight:dune_platter",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"chicken_sandwich": {
+			"type": "item",
+			"content": "farmersdelight:chicken_sandwich",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"clam_meatball_stew": {
+			"type": "item",
+			"content": "collectorsreap:clam_meatball_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"kangaroo_stew": {
+			"type": "item",
+			"content": "alexsdelight:kangaroo_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"roasted_lamprey": {
+			"type": "item",
+			"content": "youkaishomecoming:roasted_lamprey",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"smoked_ham": {
+			"type": "item",
+			"content": "farmersdelight:smoked_ham",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"ratatouille": {
+			"type": "item",
+			"content": "farmersdelight:ratatouille",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"bunfungus_sandwich": {
+			"type": "item",
+			"content": "alexsdelight:bunfungus_sandwich",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 110
+		},
+		"sausage_and_potatoes": {
+			"type": "item",
+			"content": "mynethersdelight:sausage_and_potatoes",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 120
+		},
+		"cod_ceviche": {
+			"type": "item",
+			"content": "collectorsreap:cod_ceviche",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 120
+		},
+		"clam_pasta": {
+			"type": "item",
+			"content": "collectorsreap:clam_pasta",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 120
+		},
+		"hamburger": {
+			"type": "item",
+			"content": "farmersdelight:hamburger",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 120
+		},
+		"venison_with_bamboo_shoots": {
+			"type": "item",
+			"content": "abnormals_delight:venison_with_bamboo_shoots",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 120
+		},
+		"plate_of_cold_striderloaf": {
+			"type": "item",
+			"content": "mynethersdelight:plate_of_cold_striderloaf",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 120
+		},
+		"crimson_stroganoff": {
+			"type": "item",
+			"content": "mynethersdelight:crimson_stroganoff",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 120
+		},
+		"plate_of_stuffed_hoglin_ham": {
+			"type": "item",
+			"content": "mynethersdelight:plate_of_stuffed_hoglin_ham",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"grilled_soulsucker": {
+			"type": "item",
+			"content": "netherdepthsupgrade:grilled_soulsucker",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"spicy_hoglin_stew": {
+			"type": "item",
+			"content": "mynethersdelight:spicy_hoglin_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"mapo_tofu": {
+			"type": "item",
+			"content": "youkaishomecoming:mapo_tofu",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"baked_lava_pufferfish_stew": {
+			"type": "item",
+			"content": "netherdepthsupgrade:baked_lava_pufferfish_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"grilled_magmacubefish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:grilled_magmacubefish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"shrimp_fried_rice": {
+			"type": "item",
+			"content": "alexsmobs:shrimp_fried_rice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"beef_stew": {
+			"type": "item",
+			"content": "farmersdelight:beef_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"baked_glowdine_stew": {
+			"type": "item",
+			"content": "netherdepthsupgrade:baked_glowdine_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"kelp_roll": {
+			"type": "item",
+			"content": "farmersdelight:kelp_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"seared_venison": {
+			"type": "item",
+			"content": "abnormals_delight:seared_venison",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"mitarashi_dango": {
+			"type": "item",
+			"content": "youkaishomecoming:mitarashi_dango",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"steak_and_potatoes": {
+			"type": "item",
+			"content": "farmersdelight:steak_and_potatoes",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"bowl_of_heart_throbbing_surprise": {
+			"type": "item",
+			"content": "youkaishomecoming:bowl_of_heart_throbbing_surprise",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"longevity_noodles": {
+			"type": "item",
+			"content": "youkaishomecoming:longevity_noodles",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"baked_obsidianfish_stew": {
+			"type": "item",
+			"content": "netherdepthsupgrade:baked_obsidianfish_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"assorted_dango": {
+			"type": "item",
+			"content": "youkaishomecoming:assorted_dango",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"mushroom_rice": {
+			"type": "item",
+			"content": "farmersdelight:mushroom_rice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"grilled_eel_over_rice": {
+			"type": "item",
+			"content": "youkaishomecoming:grilled_eel_over_rice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"grilled_blazefish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:grilled_blazefish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"sauce_grilled_fish": {
+			"type": "item",
+			"content": "youkaishomecoming:sauce_grilled_fish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"baked_blazefish_stew": {
+			"type": "item",
+			"content": "netherdepthsupgrade:baked_blazefish_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"baked_searing_cod_stew": {
+			"type": "item",
+			"content": "netherdepthsupgrade:baked_searing_cod_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"portobello_risotto": {
+			"type": "item",
+			"content": "collectorsreap:portobello_risotto",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"grilled_glowdine": {
+			"type": "item",
+			"content": "netherdepthsupgrade:grilled_glowdine",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"fried_hoglin_chop": {
+			"type": "item",
+			"content": "mynethersdelight:fried_hoglin_chop",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"imitation_bear_paw": {
+			"type": "item",
+			"content": "youkaishomecoming:imitation_bear_paw",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"portobello_burger": {
+			"type": "item",
+			"content": "collectorsreap:portobello_burger",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"boiled_broccoli": {
+			"type": "item",
+			"content": "smc:boiled_broccoli",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"grilled_obsidianfish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:grilled_obsidianfish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"pastitsio": {
+			"type": "item",
+			"content": "youkaishomecoming:pastitsio",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"duck_noodles": {
+			"type": "item",
+			"content": "abnormals_delight:duck_noodles",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"vegetable_soup": {
+			"type": "item",
+			"content": "farmersdelight:vegetable_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"kangaroo_burger": {
+			"type": "item",
+			"content": "alexsmobs:kangaroo_burger",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"warped_kelp_roll": {
+			"type": "item",
+			"content": "netherdepthsupgrade:warped_kelp_roll",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"acacia_blossom_soup": {
+			"type": "item",
+			"content": "alexsdelight:acacia_blossom_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"pasta_with_mutton_chop": {
+			"type": "item",
+			"content": "farmersdelight:pasta_with_mutton_chop",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"fish_stew": {
+			"type": "item",
+			"content": "farmersdelight:fish_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"baked_soulsucker_stew": {
+			"type": "item",
+			"content": "netherdepthsupgrade:baked_soulsucker_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"bison_burger": {
+			"type": "item",
+			"content": "alexsdelight:bison_burger",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"tuscan_salmon": {
+			"type": "item",
+			"content": "youkaishomecoming:tuscan_salmon",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"baked_magmacubefish_stew": {
+			"type": "item",
+			"content": "netherdepthsupgrade:baked_magmacubefish_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"astera_pudding": {
+			"type": "item",
+			"content": "smc:astera_pudding",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"kinako_dango": {
+			"type": "item",
+			"content": "youkaishomecoming:kinako_dango",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"grilled_searing_cod": {
+			"type": "item",
+			"content": "netherdepthsupgrade:grilled_searing_cod",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"shirayuki": {
+			"type": "item",
+			"content": "youkaishomecoming:shirayuki",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"pasta_with_meatballs": {
+			"type": "item",
+			"content": "farmersdelight:pasta_with_meatballs",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"prawn_noodles": {
+			"type": "item",
+			"content": "collectorsreap:prawn_noodles",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"apaki": {
+			"type": "item",
+			"content": "youkaishomecoming:apaki",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"grilled_lava_pufferfish": {
+			"type": "item",
+			"content": "netherdepthsupgrade:grilled_lava_pufferfish",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"seafood_miso_soup": {
+			"type": "item",
+			"content": "youkaishomecoming:seafood_miso_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"lions_head": {
+			"type": "item",
+			"content": "youkaishomecoming:lions_head",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 130
+		},
+		"portobello_pasta": {
+			"type": "item",
+			"content": "collectorsreap:portobello_pasta",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 140
+		},
+		"crab_noodles": {
+			"type": "item",
+			"content": "collectorsreap:crab_noodles",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 140
+		},
+		"chilidog": {
+			"type": "item",
+			"content": "mynethersdelight:chilidog",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 140
+		},
+		"portobello_rice_soup": {
+			"type": "item",
+			"content": "collectorsreap:portobello_rice_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"pomegranate_chicken": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_chicken",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"baked_cod_stew": {
+			"type": "item",
+			"content": "farmersdelight:baked_cod_stew",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"perch_with_mushrooms": {
+			"type": "item",
+			"content": "abnormals_delight:perch_with_mushrooms",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"pumpkin_soup": {
+			"type": "item",
+			"content": "farmersdelight:pumpkin_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"roast_chicken": {
+			"type": "item",
+			"content": "farmersdelight:roast_chicken",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"braised_beef_with_peas": {
+			"type": "item",
+			"content": "smc:braised_beef_with_peas",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"passion_fruit_glazed_duck": {
+			"type": "item",
+			"content": "abnormals_delight:passion_fruit_glazed_duck",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"roasted_mutton_chops": {
+			"type": "item",
+			"content": "farmersdelight:roasted_mutton_chops",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"grilled_salmon": {
+			"type": "item",
+			"content": "farmersdelight:grilled_salmon",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"chicken_soup": {
+			"type": "item",
+			"content": "farmersdelight:chicken_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"shepherds_pie": {
+			"type": "item",
+			"content": "farmersdelight:shepherds_pie",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"honey_lime_chicken": {
+			"type": "item",
+			"content": "collectorsreap:honey_lime_chicken",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"light_meal": {
+			"type": "item",
+			"content": "smc:light_meal",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"vegetable_noodles": {
+			"type": "item",
+			"content": "farmersdelight:vegetable_noodles",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"noodle_soup": {
+			"type": "item",
+			"content": "farmersdelight:noodle_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"stuffed_pumpkin": {
+			"type": "item",
+			"content": "farmersdelight:stuffed_pumpkin",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"fried_rice": {
+			"type": "item",
+			"content": "farmersdelight:fried_rice",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"sea_wrap": {
+			"type": "item",
+			"content": "collectorsreap:sea_wrap",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"mediterranean_salmon": {
+			"type": "item",
+			"content": "collectorsreap:mediterranean_salmon",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"honey_glazed_ham": {
+			"type": "item",
+			"content": "farmersdelight:honey_glazed_ham",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"squid_ink_pasta": {
+			"type": "item",
+			"content": "farmersdelight:squid_ink_pasta",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"plate_of_stuffed_hoglin_snout": {
+			"type": "item",
+			"content": "mynethersdelight:plate_of_stuffed_hoglin_snout",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"pomegranate_mutton": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_mutton",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 150
+		},
+		"breakfast_sampler": {
+			"type": "item",
+			"content": "mynethersdelight:breakfast_sampler",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 160
+		},
+		"land_and_sea_burger": {
+			"type": "item",
+			"content": "collectorsreap:land_and_sea_burger",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 160
+		},
+		"orange_sorbet": {
+			"type": "item",
+			"content": "atmospheric:orange_sorbet",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 160
+		},
+		"passion_fruit_sorbet": {
+			"type": "item",
+			"content": "atmospheric:passion_fruit_sorbet",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 160
+		},
+		"spicy_curry": {
+			"type": "item",
+			"content": "mynethersdelight:spicy_curry",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 160
+		},
+		"truffle": {
+			"type": "item",
+			"content": "environmental:truffle",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 170
+		},
+		"pomegranate_pork": {
+			"type": "item",
+			"content": "collectorsreap:pomegranate_pork",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 170
+		},
+		"power_soup": {
+			"type": "item",
+			"content": "youkaishomecoming:power_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 170
+		},
+		"spicy_noodle_soup": {
+			"type": "item",
+			"content": "mynethersdelight:spicy_noodle_soup",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 170
+		},
+		"hot_wings_bucket": {
+			"type": "item",
+			"content": "mynethersdelight:hot_wings_bucket",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 190
+		},
+		"ender_dragon_fruit": {
+			"type": "item",
+			"content": "atmospheric:ender_dragon_fruit",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 210
+		},
+		"tengzou_noodles": {
+			"type": "item",
+			"content": "rainbow:tengzou_noodles",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 210
+		},
+		"chicken_chop": {
+			"type": "item",
+			"content": "smc:chicken_chop",
+			"amount": {
+				"min": 1,
+				"max": 1000
+			},
+			"unitWorth": 210
+		}
+	}
+}

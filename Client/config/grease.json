@@ -1,0 +1,13 @@
+{
+  "fire_tick": 160,
+  "poison_tick": 400,
+  "freezing_tick": 160,
+  "lightning_cooldown": 100,
+  "grease_tick": 600,
+  "sacred_damage": 2,
+  "magic_change": 100,
+  "force_visual": false,
+  "grease_item": [
+    "minecraft:a"
+  ]
+}
