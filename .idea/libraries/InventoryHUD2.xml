@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="InventoryHUD2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Client/config/InventoryHUD.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

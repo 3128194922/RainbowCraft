@@ -18,6 +18,10 @@ ServerEvents.recipes(event=>{
     event.replaceInput({output:'backpack_pixel:unitbox'},'minecraft:iron_nugget','minecraft:shulker_box')
     //袋装红豆
     event.remove({id:'youkaishomecoming:redbean_bag'})
+    //牛奶分液池
+    event.remove({id:"create:emptying/compat/farmersdelight/milk_bottle"})
+    event.remove({id:"brewinandchewin:emptying/create/milk_bucket"})
+    event.remove({id:"brewinandchewin:emptying/create/milk_bottle"})
     //虚空矿
     event.remove({id:"createutilities:mixing/void_steel_ingot"})
     //音乐播放器

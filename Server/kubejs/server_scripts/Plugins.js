@@ -131,7 +131,7 @@ ServerEvents.commandRegistry(event => {
                 return 1;
             })
     );
-
+/*
     event.register(
         Commands.literal("sdwww")
             .requires(src => src.hasPermission(0))
@@ -153,7 +153,9 @@ ServerEvents.commandRegistry(event => {
                 }
                 return 1;
             })
-    );
+    );*/
+
+
 
 });
 
@@ -164,7 +166,6 @@ PlayerEvents.loggedIn(event=>{
     let player = event.player;
     let server = event.server;
     //饰品初始化
-    console.log("测试")
 
     event.server.runCommandSilent(`/curios reset ${event.player.getDisplayName().getString()}`);
     let Curios = ["body","belt","bracelet","curio","hands","necklace","ring","feet","hands"]
