@@ -18,10 +18,6 @@ ServerEvents.recipes(event=>{
     event.replaceInput({output:'backpack_pixel:unitbox'},'minecraft:iron_nugget','minecraft:shulker_box')
     //袋装红豆
     event.remove({id:'youkaishomecoming:redbean_bag'})
-    //牛奶分液池
-    event.remove({id:"create:emptying/compat/farmersdelight/milk_bottle"})
-    event.remove({id:"brewinandchewin:emptying/create/milk_bucket"})
-    event.remove({id:"brewinandchewin:emptying/create/milk_bottle"})
     //虚空矿
     event.remove({id:"createutilities:mixing/void_steel_ingot"})
     //音乐播放器
@@ -120,8 +116,12 @@ ServerEvents.recipes(event=>{
     event.recipes.create.haunting(Item.of('netherexp:banshee_rod').withChance(0.75),'minecraft:blaze_rod')
     //霜冻金属
     event.blasting('rainbow:frostium_ingot','rainbow:raw_frostium',5,2000)
+    event.blasting('rainbow:raw_frostium','rainbow:frostium_ore',5,2000)
+    event.blasting('rainbow:raw_frostium','rainbow:blue_ice_frostium_ore',5,2000)
     event.shapeless('9x rainbow:frostium_nugget','rainbow:frostium_ingot')
     event.shapeless('rainbow:frostium_ingot','9x rainbow:frostium_nugget')
+    //虚空粗矿
+    event.blasting('rainbow:raw_voidore','rainbow:void_ore',5,2000)
     //煤炭量产/下界合金
     event.recipes.create.crushing(['minecraft:coal',Item.of('minecraft:netherite_scrap').withChance(0.0001)],'minecraft:blackstone').processingTime(150)//.withChance(0.12)
     //鲨鱼牙齿
