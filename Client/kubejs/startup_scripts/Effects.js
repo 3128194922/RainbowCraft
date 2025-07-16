@@ -29,4 +29,7 @@ StartupEvents.registry("mob_effect", event => {
         .effectTick((mob, lvl) => {
         global.TauntEffectEvent(mob, lvl)
         })
+    event.create("rainbow:power_sword")
+    .beneficial() // 标记为有益效果
+    .color(0xEAF044)
 });

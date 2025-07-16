@@ -1,7 +1,7 @@
 // priority: 500
 ServerEvents.tags("item",event=>{
     event.add("curios:back",['create:copper_backtank','create:netherite_backtank','minecraft:tnt','oreganized:shrapnel_bomb','savage_and_ravage:spore_bomb','minecraft:end_rod'])
-    event.add("minecraft:arrows",['rainbow:frost_arrow','oreganized:lead_bolt','rainbow:tnt_arrow'])
+    event.add("minecraft:arrows",['rainbow:frost_arrow','oreganized:lead_bolt','rainbow:tnt_arrow',"rainbow:toxic_arrow","uniyesmod:slime_arrow"])
     event.add("curios:charm",['minecraft:recovery_compass'])
     event.add("rainbow:oldbook",['quark:ancient_tome']) 
     event.add("curios:head",['farmersdelight:skillet','rainbow:eldritch_pan','dungeonsdelight:golden_cleaver','farmersdelight:basket']) 

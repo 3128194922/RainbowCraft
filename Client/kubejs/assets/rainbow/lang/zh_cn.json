@@ -65,9 +65,14 @@
 	"fluid.rainbow.number_water":"液态逻辑",
 	"item.rainbow.miracle":"奇迹物质",
 	"item.rainbow.eldritch_pan":"§kIIIIIIII",
+	"item.rainbow.duel":"决斗剑",
 	"effect.rainbow.temporal_sadness": "莫名的悲伤",
 	"effect.rainbow.temporal_sadness.description": "效果期间无法疾跑，获得缓慢2和虚弱2",
 	"effect.rainbow.tag": "标记",
 	"enchantment.rainbow.last_stand": "屹立不倒",
-	"enchantment.rainbow.last_stand.desc":"消耗经验进行锁血"
+	"enchantment.rainbow.last_stand.desc":"消耗经验进行锁血",
+	"key.rainbow.charmkey":"彩虹创艺",
+	"key.keybinding.rainbow.charmkey":"饰品主动技能",
+	"item.rainbow.terasword":"泰拉之刃",
+	"item.rainbow.baseball_bat":"先驱者动力剑"
 }

@@ -1,16 +1,24 @@
 // priority: 500
+//玩家统一受伤事件
 ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHurtEvent", event => {
-        const victim = event.entity;
-        const attacker = event.source.player;
-        const source = event.getSource();
-        const range_damage = ['atmospheric.passionFruitSeed','thrown','soulBulconst','arrow','trident','lead_bolt','create.potato_cannon'];
+        let victim = event.entity;
+        let attacker = event.source.player;
+        let source = event.getSource();
+        let range_damage = ['atmospheric.passionFruitSeed','thrown','soulBullet','arrow','trident','lead_bolt','create.potato_cannon'];
 
         // 统一过滤条件
         if (!attacker || !attacker.isPlayer()) return;
         if (attacker.level.isClientSide()) return;
     
-        const mainHand = attacker.getItemInHand("main_hand");
-        const offHand = attacker.getItemInHand("off_hand");
+        let mainHand = attacker.getItemInHand("main_hand");
+        let offHand = attacker.getItemInHand("off_hand");
+
+        //动力剑
+        if(attacker.hasEffect("rainbow:power_sword") && mainHand.id == "rainbow:baseball_bat")
+                {
+                        event.setAmount(40)
+                        attacker.server.runCommandSilent(`/playsound cataclysm:emp_activated voice @p ${victim.x} ${victim.y} ${victim.z}`)
+                }
 
 //武器/////////////////////////////////////////////////////////////////
         // 提尔锋伤害逻辑
@@ -34,8 +42,8 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHurtEvent", ev
 
         // 霜冻斧头伤害逻辑优化版
         if (mainHand.id === "rainbow:frostium_axe"  && range_damage.indexOf(source.getType()) == -1) {
-                const damageMultiplier = 1.0;
-                const bonusFireDamage = 0.0;
+                let damageMultiplier = 1.0;
+                let bonusFireDamage = 0.0;
                 
                 // 冰冻目标增伤
                 if (victim.getTicksFrozen() > 0) {
@@ -60,8 +68,9 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHurtEvent", ev
                         victim.potionEffects.add("rainbow:temporal_sadness",SecoundToTick(5),0,true,true)
                 }
         }
-        //棒球棍
-        if((mainHand.id == "rainbow:baseball_bat" && range_damage.indexOf(source.getType()) != -1) || (mainHand.id == "rainbow:baseball_bat" && source.getType() == "player"))
+
+        //屠夫之钉
+        if(hasCurios(attacker,"rainbow:nail") && range_damage.indexOf(source.getType()) != -1)
                 {
                         if(randomBool(attacker.getAttribute("generic.luck").getValue()/10.0))
                                 {
@@ -79,6 +88,34 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHurtEvent", ev
                 {
                         attacker.server.runCommandSilent(`/playsound farmersdelight:item.skillet.attack.strong voice @p ${attacker.x} ${attacker.y} ${attacker.z}` )
                 }
+        if(mainHand.id == "rainbow:duel")
+            {
+                if(mainHand.nbt.type == victim.getType())
+                    {
+                        event.setAmount(event.getAmount()*1.5)
+                    }
+                else
+                {
+                    mainHand.nbt.type = victim.getType();
+                }
+            }
+        // 攻击逻辑 - 链式闪电效果
+        if (hasCurios(attacker, "rainbow:lightning")) {
+
+            // 计算闪电链参数
+            const chainsLeft = 5; // 基础3次 + 每级附加3次
+            const creatorId = attacker.getId();
+            const targetId = victim.getId();
+            
+            // 生成闪电链实体
+            const lightning = attacker.level.createEntity('domesticationinnovation:chain_lightning');
+            lightning.setCreatorEntityID(creatorId);
+            lightning.setFromEntityID(creatorId);
+            lightning.setToEntityID(targetId);
+            lightning.setChainsLeft(chainsLeft);
+            victim.level.addFreshEntity(lightning);
+            attacker.server.runCommandSilent(`/playsound domesticationinnovation:chain_lightning voice @p ${attacker.x} ${attacker.y} ${attacker.z}`)
+        }
         //防御逻辑/////////////////////////////////////////////////////////////
         //曙旼始灵
         if(victim.hasEffect("rainbow:tag") && range_damage.indexOf(source.getType()) != -1)
@@ -86,10 +123,13 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHurtEvent", ev
                         event.setAmount(event.getAmount()*2)
                 }
     });
+//抛射体事件
+ForgeEvents.onEvent("net.minecraftforge.event.entity.ProjectileImpactEvent", event => {
+})
 //玩家破坏方块事件
 ForgeEvents.onEvent("net.minecraftforge.event.entity.player.PlayerEvent$BreakSpeed", event => {
-const block = event.state.getBlock();
-const entity = event.getEntity()
+let block = event.state.getBlock();
+let entity = event.getEntity()
 
 // 检测黑曜石和特定镐子
 if (block.id === "minecraft:obsidian" && (entity.getItemInHand("main_hand").id === "rainbow:frostium_pickaxe" || entity.getItemInHand("off_hand").id === "rainbow:frostium_pickaxe")) {
@@ -102,12 +142,46 @@ if (block.id === "minecraft:obsidian" && (entity.getItemInHand("main_hand").id =
 });
 //玩家攻击事件
 ForgeEvents.onEvent("net.minecraftforge.event.entity.player.AttackEntityEvent", event => {
+        let entity = event.getEntity();
+        let target = event.getTarget();
+        let Integer = Java.loadClass("java.lang.Integer");
+        if(entity.level.clientSide) return;
+
+        if(entity.getType() != null && target.getType() != null)
+                {
+                        if(entity.getItemInHand("main_hand") === 'rainbow:terasword')
+                        {
+                                if(!entity.getItemInHand("main_hand").nbt.power)
+                                        {
+                                                entity.getItemInHand("main_hand").nbt.power = 1;
+                                        }
+                                else
+                                {
+                                        if(entity.getItemInHand("main_hand").nbt.power<4)
+                                                {
+                                                        entity.getItemInHand("main_hand").nbt.power = entity.getItemInHand("main_hand").nbt.power + 1;
+                                                }
+                                        else
+                                        {
+                                                return;
+                                        }
+                                }
+                        }
+
+                        if(entity.getItemInHand("main_hand") === 'rainbow:duel')
+                                {
+                                    if(!entity.getItemInHand("main_hand").nbt.type)
+                                        {
+                                            entity.getItemInHand("main_hand").nbt.type = none;
+                                        }
+                                }
+                }
 });
 //玩家右键生物事件
 ForgeEvents.onEvent("net.minecraftforge.event.entity.player.PlayerInteractEvent$EntityInteract", event => {
-        const Player = event.getEntity();
-        const Item = event.getItemStack();
-        const Entity = event.getTarget();
+        let Player = event.getEntity();
+        let Item = event.getItemStack();
+        let Entity = event.getTarget();
         
         if(Player.isPlayer() && Player.isShiftKeyDown() && Item.getId()=="minecraft:shears" && Entity.getType() == "minecraft:creeper")
                 {
@@ -117,8 +191,8 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.player.PlayerInteractEvent$
 /*
 //tag武器
 ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingAttackEvent",event=>{
-        const player = event.source.player;
-        const monster = event.entity;
+        let player = event.source.player;
+        let monster = event.entity;
 
         //if(attacker.level.isClientSide()) return;
         if(hasCurio(player,"rainbow:advancement_lens"))
@@ -136,11 +210,11 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingAttackEvent",e
 //玩不动，先放着，现在的效果是民主保佑处死非玩家单位
 // 监听 MobEffectEvent.Expired 事件（自定义效果结束）
 ForgeEvents.onEvent("net.minecraftforge.event.entity.living.MobEffectEvent$Expired", event => {
-        const player = event.entity;
+        let player = event.entity;
         // 获取效果实例
-        const effectInstance = event.getEffectInstance();
+        let effectInstance = event.getEffectInstance();
         // 检查是否是 rainbow:democratic_save 效果
-        const effectId = effectInstance.getEffect().getDescriptionId();
+        let effectId = effectInstance.getEffect().getDescriptionId();
 
         if(player.level.isClientSide()) return;
         if(effectId === "effect.rainbow.democratic_save")
@@ -159,11 +233,11 @@ ForgeEvents.onEvent("top.theillusivec4.curios.api.event.CurioChangeEvent", event
         heatCurios(event);
 });*/
 /*
-const { entity,from,to } = event; 
+let { entity,from,to } = event; 
 if(!entity.isPlayer()) return;
 // 获取玩家的 Curios 物品栏
-const curiosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi');
-const curiosInventory = curiosApi.getCuriosInventory(entity).resolve().get();
+let curiosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi');
+let curiosInventory = curiosApi.getCuriosInventory(entity).resolve().get();
 //获取栏位4的物品ID(栏位从0开始，从左到右)
 if(curiosInventory.getEquippedCurios().getStackInSlot(4).getId() === "fromtheshadows:corrupted_heart" && entity.getArmorValue() < 10)
 {
@@ -175,28 +249,28 @@ entity.removeEffect("minecraft:regeneration");
 }*/
 // 虚空炼成系统：物品掉入虚空后转化为指定产物
 ForgeEvents.onEvent("net.minecraftforge.event.entity.EntityLeaveLevelEvent", (event) => {
-        const { entity, level } = event;
+        let { entity, level } = event;
         if (level.clientSide || !entity.item || entity.getY() > level.getMinBuildHeight()) return;
     
-        const inputItemId = entity.item.id;
-        const inputCount = entity.item.count;
+        let inputItemId = entity.item.id;
+        let inputCount = entity.item.count;
     
         // 配方列表：输入 → 输出
-        const voidTransmuteRecipes = {
+        let voidTransmuteRecipes = {
             'rainbow:raw_voidore': 'createutilities:void_steel_ingot'
         };
     
         // 检查是否有对应配方
-        const outputItemId = voidTransmuteRecipes[inputItemId];
+        let outputItemId = voidTransmuteRecipes[inputItemId];
         if (!outputItemId) return;
     
         // 创建转化后的掉落物实体，数量对应
-        const resultEntity = entity.block.createEntity("item");
+        let resultEntity = entity.block.createEntity("item");
         resultEntity.item = Item.of(outputItemId, inputCount);  // 👈 保留原始数量
         resultEntity.y = level.getMinBuildHeight() - 20;
     
         // 设置运动效果
-        const riseSpeed = (entity.fallDistance - 43) / 50;
+        let riseSpeed = (entity.fallDistance - 43) / 50;
         resultEntity.setDeltaMovement(new Vec3d(0, riseSpeed, 0));
         resultEntity.setNoGravity(true);
         resultEntity.setGlowing(true);
@@ -207,25 +281,25 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.EntityLeaveLevelEvent", (ev
     
 // 监听左键空击事件
 ForgeEvents.onEvent('net.minecraftforge.event.entity.player.PlayerInteractEvent$LeftClickEmpty', event => {
-        const player = event.entity;
+/*        let player = event.entity;
 
         if (!player || !player.level.clientSide) return;
 
-        const projectileName = "minecraft:arrow";
+        let projectileName = "minecraft:arrow";
         
         if(player.mainHandItem.id =="rainbow:terasword")
                 {
                         projectileName = "minecraft:arrow";
                 }
             // 计算发射数据
-            const viewVector = player.getViewVector(1.0)
-            const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z())
-            const nor_x = viewVector.x() / length
-            const nor_y = viewVector.y() / length
-            const nor_z = viewVector.z() / length
-            const new_x = player.x + nor_x * 2
-            const new_y = player.y + player.getEyeHeight()
-            const new_z = player.z + nor_z * 2
+            let viewVector = player.getViewVector(1.0)
+            let length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z())
+            let nor_x = viewVector.x() / length
+            let nor_y = viewVector.y() / length
+            let nor_z = viewVector.z() / length
+            let new_x = player.x + nor_x * 2
+            let new_y = player.y + player.getEyeHeight()
+            let new_z = player.z + nor_z * 2
             
             // 发送数据到服务端
             Client.player.sendData("projectlie", {
@@ -236,5 +310,5 @@ ForgeEvents.onEvent('net.minecraftforge.event.entity.player.PlayerInteractEvent$
                 viewY: nor_y,
                 viewZ: nor_z,
                 name: projectileName
-            })
+            })*/
     })

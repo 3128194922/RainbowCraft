@@ -328,3 +328,18 @@ function getGlfwKeyValue(keyName) {
 function randomBool(probability) {
     return Math.random() < probability;
 }
+
+
+/**
+* 监听饰品栏添加效果
+*/
+let CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
+
+/**
+* 在实体饰品栏中寻找饰品
+* @param {Internal.Item} stack 饰品
+* @param {Internal.LivingEntity_} entity 实体
+*/
+function hasCurios(entity, stack) {
+return CuriosApi.getCuriosHelper().findEquippedCurio(stack, entity).isPresent()
+}

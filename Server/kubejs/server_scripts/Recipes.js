@@ -48,6 +48,15 @@ ServerEvents.recipes(event=>{
         ['','create:sturdy_sheet',''],
         ['create:sturdy_sheet','summoningrituals:altar','create:sturdy_sheet'],
         ['','create:sturdy_sheet',''],])*/
+    //洋葱
+    event.recipes.farmersdelight.cutting(
+        'farmersdelight:onion',
+        '#farmersdelight:tools/knives', // tool
+        [ // results
+        'overweight_farming:vegetable_peels',
+        ],
+        // '' // sound
+    );
     //契约戒
     event.remove({output:'petconnect:pet_connect'})
     event.shaped('petconnect:pet_connect',[
@@ -77,6 +86,17 @@ ServerEvents.recipes(event=>{
     event.recipes.create.crushing('minecraft:dirt', 'minecraft:flint').processingTime(500)//.withChance(0.12)
     //命名牌配方
     event.shapeless('minecraft:name_tag',['#forge:string','#minecraft:planks','minecraft:name_tag']).keepIngredient({item:'minecraft:name_tag'})
+    //药水箭配方
+    event.shapeless("rainbow:toxic_arrow",['minecraft:stick', 'minecraft:feather','minecraft:lingering_potion']).modifyResult((inventory,itemStack)=>{
+        if(inventory.find("lingering_potion").getNbt().get("Potion"))
+            {
+                return Item.of("rainbow:toxic_arrow",`{Potion:${inventory.find("lingering_potion").getNbt().get("Potion")}}`)
+            }
+            else
+            {
+                return Item.of("air")
+            }
+    })
     //切石机加强
     event.stonecutting('3x minecraft:iron_bars','minecraft:iron_door')
     event.stonecutting('create:cogwheel','create:large_cogwheel')
@@ -158,6 +178,12 @@ ServerEvents.recipes(event=>{
     event.recipes.create.filling('rainbow:miracle', [Fluid.of("rainbow:number_water",1000),'rainbow:rainbow_stone'])
     //逻辑运算符
     event.recipes.create.crushing([Item.of('rainbow:plus').withChance(0.25),Item.of('rainbow:minus').withChance(0.25),Item.of('rainbow:multiply').withChance(0.25),Item.of('rainbow:divide').withChance(0.25)],'rainbow:miracle').processingTime(150)
+    //熔渣-红石
+    event.recipes.create.crushing(Item.of('minecraft:redstone').withChance(0.20),'create:scoria').processingTime(150)
+    //焦黑熔渣-萤石
+    event.recipes.create.crushing(Item.of('minecraft:glowstone_dust').withChance(0.20),'create:scorchia').processingTime(150)
+    //石灰石-银
+    event.recipes.create.crushing([Item.of('create:crushed_raw_silver').withChance(0.20),Item.of('oreganized:silver_nugget').withChance(0.20)],'create:limestone').processingTime(150)
     //逻辑运算符
     event.recipes.create.filling('rainbow:three', [Fluid.of("rainbow:number_water",1000), 'create:nixie_tube'])
     event.recipes.create.filling('rainbow:eight', [Fluid.of("rainbow:number_water",1000), 'rainbow:three'])

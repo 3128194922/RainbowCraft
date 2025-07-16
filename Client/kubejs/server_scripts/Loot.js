@@ -372,20 +372,21 @@ ServerEvents.entityLootTables(event=>{
             pool.addItem('minecraft:emerald').weight(1).count([1,2]).lootingEnchant(1,5)
         })
     })
-    //卫道不祥瓶子
-    event.modifyEntity('minecraft:vindicator',Loot=>{
-        Loot.addPool(pool=>{
-            pool.addItem(Item.of('minecraft:potion', '{Potion:"kubejs:omen"}'))
-            .weight(1) // 基础掉落权重
-            .count([0, 1]) // 基础掉落数量范围
-        })
-    })
     //蟑螂710元素
     event.modifyEntity('alexsmobs:cockroach',Loot=>{
         Loot.addPool(pool=>{
             pool.addItem('rainbow:shit')
             .weight(1) // 基础掉落权重
             .count([0, 1]) // 基础掉落数量范围
+            .lootingEnchant(1,5)
+        })
+    })
+    //笼头怪
+    event.modifyEntity('spawnerhead:spawner_head',Loot=>{
+        Loot.addPool(pool=>{
+            pool.addItem('dungeonsdelight:stained_scrap')
+            .weight(1) // 基础掉落权重
+            .count([1, 2]) // 基础掉落数量范围
             .lootingEnchant(1,5)
         })
     })
@@ -399,6 +400,20 @@ ServerEvents.entityLootTables(event=>{
             pool.addEmpty(19)
         });
     });
+
+    //覆盖战利品
+    //利维坦
+    event.addEntity("cataclysm:the_leviathan", loot => {
+        loot.addPool(pool => {
+            pool.addItem('cataclysm:chain_of_soul_binding').weight(1)
+        })
+    })
+    //末影傀儡
+    event.addEntity("cataclysm:ender_golem", loot => {
+        loot.addPool(pool => {
+            pool.addItem('cataclysm:enderite_ingot').weight(1).count([3,4])
+        })
+    })
 })
 //方块战利品
 ServerEvents.blockLootTables(event => {
@@ -410,7 +425,7 @@ ServerEvents.blockLootTables(event => {
         }) 
     })
     //松露挖屎
-    event.modifyBlock('environmental:buried_truffle',loot=>{
+/*    event.modifyBlock('environmental:buried_truffle',loot=>{
         let pool = [
         {
             "type":"minecraft:item",
@@ -418,7 +433,7 @@ ServerEvents.blockLootTables(event => {
         }]
         let arr = loot.pools.get(0).asJsonObject.get("entries").asJsonArray
         arr.addAll(pool)
-    })
+    })*/
     //霜冻金属
     event.addBlock('rainbow:frostium_ore', loot => {
         loot.addPool(pool => {

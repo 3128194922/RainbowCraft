@@ -1,4 +1,4 @@
-// priority: 1000
+// priority: 1010
 /*StartupEvents.registry("enchantment", event => {
     event.create("rainbow:livingrepair", "basic")
         .category("breakable")
@@ -112,6 +112,9 @@ StartupEvents.registry("item",event=>{
     //玻璃刀
     event.create("rainbow:glass_sword","sword").maxDamage(1).attackDamageBonus(16).maxStackSize(64).attackDamageBaseline(4.0)
     .tooltip("存粹的数值")
+    //决斗剑
+    event.create("rainbow:duel","sword").maxDamage(100).attackDamageBonus(16).maxStackSize(64).attackDamageBaseline(4.0)
+    .tooltip("攻击同一类型生物伤害增加1.5")
     //末影戒指
     event.create("rainbow:enderring","basic")
     .tooltip("右键可快捷打开末影箱")
@@ -178,6 +181,21 @@ StartupEvents.registry("item",event=>{
     .tooltip("根据统计数据的死亡次数决定伤害（WIP）")
     //棒球棍
     event.create("rainbow:baseball_bat","sword")
+    .useAnimation('bow')
+    .useDuration(itemstack => 40)
+    .use((level, player, hand) => true)
+    .finishUsing((itemstack, level, entity) => {
+        let TIME = 80;
+        // 添加药水效果
+        entity.potionEffects.add("rainbow:power_sword", TIME, 0, false, false);
+        itemstack.nbt.poweroff = 1;
+        level.server.scheduleInTicks(TIME, () => {
+            itemstack.nbt.poweroff = 0;
+        })
+        level.server.runCommandSilent(`/playsound cataclysm:emp_activated voice @p ${entity.x} ${entity.y} ${entity.z}`)
+        // 返回修改后的物品堆栈（而不是null）
+        return itemstack;
+    })
     //泰拉刃
     event.create("rainbow:terasword","sword")
     /*.useAnimation('bow')
@@ -315,13 +333,46 @@ StartupEvents.registry('entity_type', event => {
                     .explode();
                     })
                 })
-        
+                .displayName("延迟TNT箭")
                 // 玩家触碰箭时（可选：阻止被捡起）
                 .playerTouch(context => {
                     const { player, entity } = context;
                     // 可选地阻止玩家捡起
                     // player.sendSystemMessage("这支箭即将爆炸！");
         });
+
+        event.create('rainbow:trea', 'entityjs:arrow')
+                .setKnockback(2)
+                .setBaseDamage(4)
+                .clientTrackingRange(8)
+                .isAttackable(true)
+                .sized(1, 1)
+                .updateInterval(3)
+                .defaultHitGroundSoundEvent("minecraft:entity.arrow.hit")
+                .setWaterInertia(1)
+                .mobCategory('misc')
+                .item(item => {
+                    item.maxStackSize(64);
+                })
+                .textureLocation(() => "rainbow:textures/entity/trea.png")
+                .playerTouch(context => {})
+                .displayName("泰拉弹幕")
+        event.create('rainbow:toxic_arrow', 'entityjs:arrow')
+        .setKnockback(2)
+        .setBaseDamage(4)
+        .clientTrackingRange(8)
+        .isAttackable(true)
+        .sized(1, 1)
+        .updateInterval(3)
+        .defaultHitGroundSoundEvent("minecraft:entity.arrow.hit")
+        .setWaterInertia(1)
+        .mobCategory('misc')
+        .item(item => {
+            item.maxStackSize(64);
+        })
+        .textureLocation(() => "rainbow:textures/entity/toxic_arrow.png")
+        .playerTouch(context => {})
+        .displayName("滞留药水箭")
         
 });
 
@@ -459,6 +510,35 @@ StartupEvents.registry('item', event => {
     .tag("curios:back")
 })
 
+//屠夫之钉
+StartupEvents.registry('item', event => {
+    event.create('rainbow:nail')
+    .tooltip("攻击生物概率恢复冷却")
+    .displayName("屠夫之钉")
+    .rarity("epic")
+    .maxStackSize(1)
+    .tag("curios:charm")
+})
+
+//闪电瓶子
+StartupEvents.registry('item', event => {
+    event.create('rainbow:lightning')
+    .tooltip("攻击生物连锁闪电")
+    .displayName("闪电瓶子")
+    .rarity("epic")
+    .maxStackSize(1)
+    .tag("curios:charm")
+})
+
+//心灵钻石
+StartupEvents.registry('item', event => {
+    event.create('rainbow:mind')
+    .tooltip("主动技能释放心灵护盾")
+    .displayName("心灵钻石")
+    .rarity("epic")
+    .maxStackSize(1)
+    .tag("curios:charm")
+})
 
 StartupEvents.registry('item', event => {
     event.create('rainbow:hungry_charm')

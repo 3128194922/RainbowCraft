@@ -2,6 +2,7 @@
 ItemEvents.rightClicked(event => {
   const { player, item, level, server } = event;
   const ender_chest = player.getEnderChestInventory().getAllItems();
+  const Integer = Java.loadClass("java.lang.Integer");
   if (level.isClientSide()) return;
 
   // 粘液块平台（粘液棒）
@@ -73,7 +74,7 @@ ItemEvents.rightClicked(event => {
   }
 // 饕餮之锅
 if (item.id === "rainbow:eldritch_pan") {
-    const Integer = Java.loadClass("java.lang.Integer");
+
     // 检查末影箱是否有物品
     if (ender_chest.length === 0) return; // 末影箱为空，直接返回
 
@@ -106,6 +107,42 @@ if (item.id === "rainbow:eldritch_pan") {
     item.nbt.foodlist.push(Integer.valueOf(tag));
     item.nbt.foodnumber = item.nbt.foodlist.length;
 }
+
+if(item.id === 'rainbow:terasword')
+    {
+        if(item.nbt.power)
+            {
+                item.nbt.power = item.nbt.power - 1;
+
+                const projectileName = "rainbow:trea";
+
+                // 计算发射数据
+                const viewVector = player.getViewVector(1.0)
+                const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z())
+                const nor_x = viewVector.x() / length
+                const nor_y = viewVector.y() / length
+                const nor_z = viewVector.z() / length
+                const new_x = player.x + nor_x * 2
+                const new_y = player.y + player.getEyeHeight()
+                const new_z = player.z + nor_z * 2
+                
+                // 发送数据到服务端
+                Client.player.sendData("projectlie", {
+                    x: new_x,
+                    y: new_y,
+                    z: new_z,
+                    viewX: nor_x,
+                    viewY: nor_y,
+                    viewZ: nor_z,
+                    name: projectileName
+                })
+            }
+        else
+        {
+            player.tell("能量不足")
+        }
+    }
+
 });
 
 
@@ -154,6 +191,7 @@ ItemEvents.entityInteracted(event => {
         target.remove("discarded");
         item.shrink(1);
         level.addFreshEntity(toEntity);
+        level.server.runCommandSilent(`/playsound minecraft:block.amethyst_block.place voice @p ${toEntity.x} ${toEntity.y} ${toEntity.z}`)
         return;
     }
 
@@ -176,6 +214,7 @@ ItemEvents.entityInteracted(event => {
         target.remove("discarded");
         item.shrink(1);
         level.addFreshEntity(toEntity);
+        level.server.runCommandSilent(`/playsound minecraft:block.amethyst_block.place voice @p ${toEntity.x} ${toEntity.y} ${toEntity.z}`)
         return;
     }
 });

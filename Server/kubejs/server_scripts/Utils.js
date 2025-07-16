@@ -381,3 +381,17 @@ function CuriosSlotMethod(method,slot,player,amount){
 function SecoundToTick(input) {
     return input*20;
 }
+
+    
+// 将朝向反向，让防御面朝外
+function reverseDirection(dir) {
+    let reverse = {
+        "down": "up",
+        "up": "down",
+        "north": "south",
+        "south": "north",
+        "west": "east",
+        "east": "west"
+    };
+    return reverse[dir];
+}

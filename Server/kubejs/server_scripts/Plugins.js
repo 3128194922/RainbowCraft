@@ -61,127 +61,200 @@ EntityEvents.death(event=>{
     //console.log(`玩家 ${playerName} 死亡位置记录：`, global.deathRecords[playerName]);
 })
 
-//统一指令注册
 ServerEvents.commandRegistry(event => {
     let { commands: Commands, arguments: Arguments } = event;
 
+    // /tpa <target>
     event.register(
         Commands.literal("tpa")
             .requires(src => src.hasPermission(0))
-            .then(Commands.argument('target', Arguments.STRING.create(event))
-                .suggests((ctx, builder) => {
-                    // 获取所有在线玩家名称
-                    let onlinePlayers = ctx.source.server.getPlayerNames();
-                    // 为每个在线玩家添加建议
-                    onlinePlayers.forEach(player => builder.suggest(player));
-                    return builder.buildFuture();
-                })
-                .executes(ctx => {
-                    let requester = ctx.source.player;
-                    let targetName = Arguments.STRING.getResult(ctx, "target");
-                    let targetPlayer = ctx.source.server.getPlayer(targetName);
-                    
-                    if (!targetPlayer) {
-                        requester.tell(`玩家 ${targetName} 不存在或不在线`);
-                        return 0;
-                    }
+            .then(
+                Commands.argument("target", Arguments.STRING.create(event))
+                    .suggests((ctx, builder) => {
+                        let playerNames = ctx.source.server.getPlayerNames();
+                        playerNames.forEach(name => builder.suggest(name));
+                        return builder.buildFuture();
+                    })
+                    .executes(ctx => {
+                        let requester = ctx.source.player;
+                        let targetName = Arguments.STRING.getResult(ctx, "target");
+                        let targetPlayer = ctx.source.server.getPlayer(targetName);
 
-                    requester.teleportTo(
-                        targetPlayer.level.dimension,
-                        targetPlayer.x,
-                        targetPlayer.y,
-                        targetPlayer.z,
-                        targetPlayer.yaw,
-                        targetPlayer.pitch
-                    );
+                        if (!targetPlayer) {
+                            requester.tell(`§c玩家 ${targetName} 不存在或不在线`);
+                            return 0;
+                        }
 
-                    targetPlayer.tell(`玩家${requester.getDisplayName().getString()}传送到你身边`)
-                    
-                    return 1;
-                })
+                        requester.teleportTo(
+                            targetPlayer.level.dimension,
+                            targetPlayer.x,
+                            targetPlayer.y,
+                            targetPlayer.z,
+                            targetPlayer.yaw,
+                            targetPlayer.pitch
+                        );
+
+                        targetPlayer.tell(`§e玩家 ${requester.getDisplayName().getString()} 传送到你身边`);
+                        return 1;
+                    })
             )
     );
 
+    // /back
     event.register(
         Commands.literal("back")
             .requires(src => src.hasPermission(0))
             .executes(ctx => {
                 let player = ctx.source.player;
                 let playerName = player.getDisplayName().getString();
-                
-                // 检查是否有死亡记录
-                if (!global.deathRecords[playerName]) {
-                    player.tell("你没有可返回的死亡位置");
+
+                if (!global.deathRecords || !global.deathRecords[playerName]) {
+                    player.tell("§c你没有可返回的死亡位置");
                     return 0;
                 }
-                
-                let deathPos = global.deathRecords[playerName];
-                
-                // 执行传送
+
+                let pos = global.deathRecords[playerName];
                 player.teleportTo(
-                    deathPos.dimension,
-                    deathPos.x,
-                    deathPos.y,
-                    deathPos.z,
-                    deathPos.yaw || 0,
-                    deathPos.pitch || 0
+                    pos.dimension,
+                    pos.x,
+                    pos.y,
+                    pos.z,
+                    pos.yaw || 0,
+                    pos.pitch || 0
                 );
-                
-                player.tell(`已返回你上次死亡的位置 (${deathPos.x}, ${deathPos.y}, ${deathPos.z})`);
+
+                player.tell(`§a已返回你上次死亡的位置 (${pos.x}, ${pos.y}, ${pos.z})`);
                 return 1;
             })
     );
-/*
+
+    // /register <password>
     event.register(
-        Commands.literal("sdwww")
+        Commands.literal("register")
             .requires(src => src.hasPermission(0))
-            .executes(ctx => {
-                let player = ctx.source.player;
-                let server = player.getServer();
-                
-                if (hasCurios(player, "minecraft:tnt")) {
-                    server.runCommandSilent(`/summon minecraft:tnt ${player.x} ${player.y} ${player.z}`);
-                    player.getCuriosStacksHandler("back").get().getStacks().setStackInSlot(0, "minecraft:air");
-                } else if (hasCurios(player, "oreganized:shrapnel_bomb")) {
-                    server.runCommandSilent(`/summon oreganized:shrapnel_bomb ${player.x} ${player.y} ${player.z}`);
-                    player.getCuriosStacksHandler("back").get().getStacks().setStackInSlot(0, "minecraft:air");
-                } else if (hasCurios(player, "savage_and_ravage:spore_bomb")) {
-                    server.runCommandSilent(`/summon savage_and_ravage:spore_bomb ${player.x} ${player.y} ${player.z}`);
-                    player.getCuriosStacksHandler("back").get().getStacks().setStackInSlot(0, "minecraft:air");
-                } else {
-                    player.tell("没有装备对应的tnt饰品！")
-                }
-                return 1;
-            })
-    );*/
+            .then(
+                Commands.argument("password", Arguments.STRING.create(event))
+                    .executes(ctx => {
+                        const player = ctx.source.player;
+                        const data = player.persistentData;
+                        const password = Arguments.STRING.getResult(ctx, "password");
 
+                        if (data.contains("password")) {
+                            player.tell("§c你已经注册过了！");
+                            return 0;
+                        }
 
+                        data.putString("password", password);
+                        player.tell("§a注册成功！");
+                        return 1;
+                    })
+            )
+    );
 
+    // /login <password>
+    event.register(
+        Commands.literal("login")
+            .requires(src => src.hasPermission(0))
+            .then(
+                Commands.argument("password", Arguments.STRING.create(event))
+                    .executes(ctx => {
+                        const player = ctx.source.player;
+                        const data = player.persistentData;
+                        const inputPassword = Arguments.STRING.getResult(ctx, "password");
+
+                        if (!data.contains("password")) {
+                            player.tell("§e你还没有注册，请使用 /register <密码> 注册！");
+                            return 0;
+                        }
+
+                        if (data.getString("password") === inputPassword) {
+                            player.setGameMode("survival");
+                            player.tell("§a登录成功，已切换到生存模式！");
+                            return 1;
+                        } else {
+                            player.tell("§c密码错误！");
+                            return 0;
+                        }
+                    })
+            )
+    );
+//重置密码
+    event.register(
+        Commands.literal("resetpassword")
+            .requires(src => src.hasPermission(4)) // 需要权限等级 4
+            .then(
+                Commands.argument("target", Arguments.STRING.create(event))
+                    .suggests((ctx, builder) => {
+                        // 在线玩家名补全
+                        let playerNames = ctx.source.server.getPlayerNames();
+                        playerNames.forEach(name => builder.suggest(name));
+                        return builder.buildFuture();
+                    })
+                    .executes(ctx => {
+                        let sender = ctx.source.player;
+                        let targetName = Arguments.STRING.getResult(ctx, "target");
+                        let targetPlayer = ctx.source.server.getPlayer(targetName);
+    
+                        if (!targetPlayer) {
+                            sender.tell(`§c玩家 ${targetName} 不存在或不在线`);
+                            return 0;
+                        }
+    
+                        let targetData = targetPlayer.persistentData;
+    
+                        if (targetData.contains("password")) {
+                            targetData.remove("password");
+                            sender.tell(`§a已成功清除玩家 ${targetName} 的密码`);
+                            targetPlayer.tell("§e你的密码已被管理员重置，请重新使用 /register 设置密码");
+                            return 1;
+                        } else {
+                            sender.tell(`§e玩家 ${targetName} 尚未注册，无需重置`);
+                            return 0;
+                        }
+                    })
+            )
+    );
+    
 });
+
+
 
 //统一进入世界事件
 PlayerEvents.loggedIn(event=>{
     if(event.level.isClientSide()) return;
-    if(event.getPlayer().stages.has("curios_is_ok")) return;
     let player = event.player;
     let server = event.server;
-    //饰品初始化
+    //登陆系统
+    player.setGameMode("spectator")
+    if(player.persistentData.getString('password') == "")
+        {
+            player.tell("你需要注册才能正常游玩服务器 请输入 /register <你的密码 不加括号>")
+        }
+    else
+    {
+        player.tell("你需要登陆才能正常游玩服务器 请输入 /login <你的密码 不加括号>")
+    }
 
-    event.server.runCommandSilent(`/curios reset ${event.player.getDisplayName().getString()}`);
+
+    if(event.getPlayer().stages.has("curios_is_ok")) return;
+
+    //饰品初始化
+    server.runCommandSilent(`/curios reset ${player.getDisplayName().getString()}`);
     let Curios = ["body","belt","bracelet","curio","hands","necklace","ring","feet","hands"]
     Curios.forEach(curio=>{
-        event.server.runCommandSilent(`/curios remove ${curio} ${event.player.getDisplayName().getString()} 1`);
+        event.server.runCommandSilent(`/curios remove ${curio} ${player.getDisplayName().getString()} 1`);
     })
     //护符实际数量
     global.CURIONUMBER = 4
-    event.server.runCommandSilent(`/curios set charm ${event.player.getDisplayName().getString()} ${global.CURIONUMBER}`);
-    event.getPlayer().stages.add("curios_is_ok")
+    server.runCommandSilent(`/curios set charm ${player.getDisplayName().getString()} ${global.CURIONUMBER}`);
+    player.stages.add("curios_is_ok")
 
     server.runCommandSilent(`/execute as ${player.getDisplayName().getString()} run dialog show hello_world`)
 });
 //玩家统计数据上传
 PlayerEvents.loggedOut(event => {
-    if(event.level.isClientSide()) return;
+    if(true) return;
+    
     let player = event.getPlayer();
     let playerUUID = player.getUuid().toString();
 

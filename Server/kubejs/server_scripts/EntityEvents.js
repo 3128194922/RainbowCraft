@@ -2,7 +2,6 @@
 // 监听伤害事件
 EntityEvents.hurt(event => {
     const { entity,source } = event;
-    
     // 玩家免疫伤害逻辑
     if (entity.isPlayer()) {
         if (!entity.level.isClientSide && entity.hasEffect("rainbow:democratic_save")) {
@@ -32,7 +31,15 @@ EntityEvents.spawned(event => {
     const entity = event.getEntity();
 
     if (entity.getEncodeId() == null) return;
+    //永恒之门
+    if(entity.getEncodeId().toString() === "gateways:endless_gateway")
+        {
+        }
 
+    if(entity.getEncodeId().toString() === "gateways:normal_gateway")
+        {
+        }
+/*
     //幽灵矿工
     if (entity.getEncodeId().toString() === "alexsmobs:underminer") {
         const itemInHand = entity.getItemInHand("main_hand");
@@ -45,7 +52,7 @@ EntityEvents.spawned(event => {
             itemInHand.setNbt(nbt);
         }
     }
-/*
+
     //诅咒玩偶
     if (entity.getEncodeId().toString() === "hmag:cursed_doll") {
         const weaponslist = ['dungeonsdelight:golden_cleaver','dungeonsdelight:iron_cleaver']
